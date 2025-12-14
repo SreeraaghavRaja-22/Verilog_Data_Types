@@ -8,27 +8,174 @@ z2
 !i10f 100
 cModel Technology
 dC:/School/Fall_25/MISC/MS_Verilog_Course
-veasy_verilog_example
-Z0 !s110 1765669575
+vbitwise_operators
+Z0 !s110 1765684390
 !i10b 1
-!s100 N6W^J9Fe7h3g1JY>FLemG2
-IO]?LT^DjheXF:P3DFk<Bk3
+!s100 ?b@?bUzzS8K@;[Qj34aio0
+I:diH9RGf=PLT932i1mh7i0
 Z1 VDg1SIo80bB@j0V0VzS_@n1
 Z2 dC:/School/Verilog_Course/Verilog_Data_Types/Data_Types/MS
-w1765669570
-8C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Data_Types_Code/easy_verilog_example.v
-FC:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Data_Types_Code/easy_verilog_example.v
+w1765677567
+8C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Operators_Code/bitwise_operators.v
+FC:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Operators_Code/bitwise_operators.v
 L0 1
 Z3 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z4 !s108 1765669575.000000
-!s107 C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Data_Types_Code/easy_verilog_example.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Data_Types_Code/easy_verilog_example.v|
+Z4 !s108 1765684390.000000
+!s107 C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Operators_Code/bitwise_operators.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Operators_Code/bitwise_operators.v|
 !i113 1
 Z5 o-work work
 Z6 tCvgOpt 0
+veasy_vectors_example
+R0
+!i10b 1
+!s100 Q_HS@Gf11K_Q^O;E1o6m63
+I_9WnM:C<b^[dDDaS_61A^3
+R1
+R2
+w1765676179
+8C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Data_Types_Code/easy_vectors_example.v
+FC:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Data_Types_Code/easy_vectors_example.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Data_Types_Code/easy_vectors_example.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Data_Types_Code/easy_vectors_example.v|
+!i113 1
+R5
+R6
+veasy_verilog_example
+R0
+!i10b 1
+!s100 N6W^J9Fe7h3g1JY>FLemG2
+IO]?LT^DjheXF:P3DFk<Bk3
+R1
+R2
+w1765669642
+8C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Data_Types_Code/easy_verilog_example.v
+FC:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Data_Types_Code/easy_verilog_example.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Data_Types_Code/easy_verilog_example.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Data_Types_Code/easy_verilog_example.v|
+!i113 1
+R5
+R6
+vliteral_values
+R0
+!i10b 1
+!s100 dBJW;AD5EDjdE5gR]b80U3
+I>?eFnJNGMiS1k^1V?:6M60
+R1
+R2
+w1765675307
+8C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Data_Types_Code/literal_values.v
+FC:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Data_Types_Code/literal_values.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Data_Types_Code/literal_values.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Data_Types_Code/literal_values.v|
+!i113 1
+R5
+R6
+vlogical_operators
+Z7 !s110 1765684391
+!i10b 1
+!s100 o>:[ne0^F`Dc2201zi=SR2
+IfTV=McQEiEn=Dd4HdMW8W0
+R1
+R2
+w1765682717
+8C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Operators_Code/logical_operators.v
+FC:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Operators_Code/logical_operators.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Operators_Code/logical_operators.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Operators_Code/logical_operators.v|
+!i113 1
+R5
+R6
+vlogical_operators_usage
+R7
+!i10b 1
+!s100 R7og=2Ebb@dQIh6nFRRM`1
+I1RMS_On7;n=MR4KNZFHQ40
+R1
+R2
+w1765683297
+8C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Operators_Code/logical_operators_usage.v
+FC:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Operators_Code/logical_operators_usage.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z8 !s108 1765684391.000000
+!s107 C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Operators_Code/logical_operators_usage.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Operators_Code/logical_operators_usage.v|
+!i113 1
+R5
+R6
+vmath_operators
+R7
+!i10b 1
+!s100 :G5H1f5LRcJ[RkHKeYJZG1
+I4gk8GehD4IN0gX=`:zQUN1
+R1
+R2
+w1765684388
+8C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Operators_Code/math_operators.v
+FC:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Operators_Code/math_operators.v
+L0 1
+R3
+r1
+!s85 0
+31
+R8
+!s107 C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Operators_Code/math_operators.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Operators_Code/math_operators.v|
+!i113 1
+R5
+R6
+vreduction_operators
+R0
+!i10b 1
+!s100 W2Ub55UbYN6E;hn6fM<Bo1
+Ifgni3FGE94QA`Jn`N>[m13
+R1
+R2
+w1765682082
+8C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Operators_Code/reduction_operators.v
+FC:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Operators_Code/reduction_operators.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Operators_Code/reduction_operators.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Operators_Code/reduction_operators.v|
+!i113 1
+R5
+R6
 vsum_product
 R0
 !i10b 1

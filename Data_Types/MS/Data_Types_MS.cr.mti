@@ -1,4 +1,53 @@
-C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Data_Types_Code/sum_product.v {1 {vlog -work work -stats=none C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Data_Types_Code/sum_product.v
+C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Operators_Code/logical_operators_usage.v {1 {vlog -work work -stats=none C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Operators_Code/logical_operators_usage.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module logical_operators_usage
+
+Top level modules:
+	logical_operators_usage
+
+} {} {}} C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Operators_Code/logical_operators.v {1 {vlog -work work -stats=none C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Operators_Code/logical_operators.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module logical_operators
+
+Top level modules:
+	logical_operators
+
+} {} {}} C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Operators_Code/bitwise_operators.v {1 {vlog -work work -stats=none C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Operators_Code/bitwise_operators.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module bitwise_operators
+
+Top level modules:
+	bitwise_operators
+
+} {} {}} C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Data_Types_Code/easy_vectors_example.v {1 {vlog -work work -stats=none C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Data_Types_Code/easy_vectors_example.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module easy_vectors_example
+
+Top level modules:
+	easy_vectors_example
+
+} {} {}} C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Operators_Code/reduction_operators.v {1 {vlog -work work -stats=none C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Operators_Code/reduction_operators.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module reduction_operators
+
+Top level modules:
+	reduction_operators
+
+} {} {}} C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Data_Types_Code/literal_values.v {1 {vlog -work work -stats=none C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Data_Types_Code/literal_values.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module literal_values
+
+Top level modules:
+	literal_values
+
+} {} {}} C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Data_Types_Code/easy_verilog_example.v {1 {vlog -work work -stats=none C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Data_Types_Code/easy_verilog_example.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module easy_verilog_example
+
+Top level modules:
+	easy_verilog_example
+
+} {} {}} C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Data_Types_Code/sum_product.v {1 {vlog -work work -stats=none C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Data_Types_Code/sum_product.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 -- Compiling module sum_product
 

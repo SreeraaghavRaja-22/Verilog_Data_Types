@@ -44,3 +44,24 @@
 - **Variables (reg, integer, time):** can only be driven inside procedures
 - **Nets(wire):** can be driven everywhere else (outside procedures)
 - Procedures use **variables** to communicate with each other
+
+## Literal Values
+
+- represents data in a specific format: (size)'(base)(value)
+  - **Size:** total number of bits of the detination variable (1bit, 10bit, Nbit);
+  - **Base:** Binary(b), Octal(o), Decimal(d), Hexadecimal(h)
+    - For sign add an "s" character before the base
+  - **Value:** digits from the selected base
+    - Unsigned number by default
+    - Use "_" to separate between bit fields (8'b1111_01010)
+    - Z and X values can be used in binary, octal, and hexadecimal (8'h0Z)
+
+## Vectors
+
+- used for multi-bit variables, constants, or port
+  - Range [msb:lsb] or [lsb:msb]
+    - Ex: reg [7:0] a / reg[0:7] a
+  - Ascending or descending bounds
+  - Can select individual bits - a[3]
+  - Bounds must be constants (negative values are allowed)
+    - 4bit vector: [3:0], [-2:1]

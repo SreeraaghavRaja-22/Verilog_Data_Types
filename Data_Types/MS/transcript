@@ -58,3 +58,351 @@ run -all
 # x=0, y = 1, z = 1
 # x=0, y = 0, z = 0
 # x=0, y = 0, z = 1
+quit -sim
+# End time: 20:14:31 on Dec 13,2025, Elapsed time: 1:27:35
+# Errors: 0, Warnings: 0
+project compileall
+# Compile of sum_product.v was successful.
+# Compile of easy_verilog_example.v was successful.
+# Compile of literal_values.v failed with 1 errors.
+# 3 compiles, 1 failed with 1 error.
+project compileall
+# Compile of sum_product.v was successful.
+# Compile of easy_verilog_example.v was successful.
+# Compile of literal_values.v was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -gui work.literal_values
+# vsim -gui work.literal_values 
+# Start time: 20:15:10 on Dec 13,2025
+# Loading work.literal_values
+run -all
+# my_var = 144
+# my_var = 89
+# my_var = 10001001
+# my_var = 211
+# my_var = zzzz0100
+# my_var = 00000001
+# my_var = 11110000
+project compileall
+# Compile of sum_product.v was successful.
+# Compile of easy_verilog_example.v was successful.
+# Compile of literal_values.v was successful.
+# 3 compiles, 0 failed with no errors.
+restart
+# Loading work.literal_values
+run -all
+# my_var = 144
+# my_var = 10010000
+# my_var = 90
+# my_var = 220
+# my_var = 89
+# my_var = 10001001
+# my_var = 211
+# my_var = zzzz0100
+# my_var = 00000001
+# my_var = 11110000
+project compileall
+# Compile of sum_product.v was successful.
+# Compile of easy_verilog_example.v was successful.
+# Compile of literal_values.v was successful.
+# 3 compiles, 0 failed with no errors.
+restart
+# Loading work.literal_values
+run -all
+# my_var = 144
+# my_var = 10010000
+# my_var = 90
+# my_var = 220
+# my_var = 90
+# 
+# -----------------------
+# my_var = 89
+# my_var = 10001001
+# my_var = 211
+# my_var = zzzz0100
+# my_var = 00000001
+# my_var = 11110000
+quit -sim
+# End time: 20:36:26 on Dec 13,2025, Elapsed time: 0:21:16
+# Errors: 0, Warnings: 0
+project compileall
+# Compile of sum_product.v was successful.
+# Compile of easy_verilog_example.v was successful.
+# Compile of literal_values.v was successful.
+# Compile of easy_vectors_example.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -gui work.easy_vectors_example
+# vsim -gui work.easy_vectors_example 
+# Start time: 20:37:14 on Dec 13,2025
+# Loading work.easy_vectors_example
+run -all
+# PROC2 a = 00000000, b = 0000000, c = 00, d = 00000000
+# PROC2 a = 00000001, b = 0000000, c = 00, d = 00000000
+# PROC2 a = 11110101, b = 0000000, c = 01, d = 00000000
+# PROC2 a = 11111001, b = 0000000, c = 10, d = 00000000
+# PROC2 a = 00011000, b = 0000000, c = 10, d = 00000000
+# PROC2 a = 00000000, b = 0000000, c = 00, d = 00000000
+# PROC2 a = 00000000, b = 1111111, c = 00, d = 00000000
+# PROC2 a = 00000000, b = 1111111, c = 00, d = 11110000
+# PROC2 a = 00001110, b = 1111111, c = 11, d = 11110000
+# PROC2 a = 00001110, b = 1111111, c = 11, d = 11101111
+# PROC2 a = 00001110, b = 1111111, c = 11, d = 11110000
+end sim
+# bad option "sim": must be blank, cget, configure, copy, data, get, put, read, redither, transparency, or write
+end -sim
+# bad option "-sim": must be blank, cget, configure, copy, data, get, put, read, redither, transparency, or write
+sim -end
+# bad option "-end": must be blank, cget, configure, copy, data, get, put, read, redither, transparency, or write
+quit -sim
+# End time: 20:57:23 on Dec 13,2025, Elapsed time: 0:20:09
+# Errors: 3, Warnings: 0
+project compileall
+# Compile of sum_product.v was successful.
+# Compile of easy_verilog_example.v was successful.
+# Compile of literal_values.v was successful.
+# Compile of easy_vectors_example.v was successful.
+# Compile of bitwise_operators.v failed with 5 errors.
+# 5 compiles, 1 failed with 5 errors.
+project compileall
+# Compile of sum_product.v was successful.
+# Compile of easy_verilog_example.v was successful.
+# Compile of literal_values.v was successful.
+# Compile of easy_vectors_example.v was successful.
+# Compile of bitwise_operators.v failed with 3 errors.
+# 5 compiles, 1 failed with 3 errors.
+# Compile of bitwise_operators.v failed with 2 errors.
+project compileall
+# Compile of sum_product.v was successful.
+# Compile of easy_verilog_example.v was successful.
+# Compile of literal_values.v was successful.
+# Compile of easy_vectors_example.v was successful.
+# Compile of bitwise_operators.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim -gui work.bitwise_operators
+# vsim -gui work.bitwise_operators 
+# Start time: 20:59:40 on Dec 13,2025
+# Loading work.bitwise_operators
+run -all
+# MON x = 000000, y = 000000, result = 000000
+# MON x = 110111, y = 010101, result = 010101
+# MON x = 110111, y = 010101, result = 101010
+# MON x = 010101, y = 101010, result = 111111
+# MON x = 010101, y = 101010, result = 000000
+# MON x = 010110, y = 011011, result = 001101
+# MON x = 010110, y = 011011, result = 110010
+# MON x = 011011, y = 011011, result = 111111
+quit -sim
+# End time: 21:10:40 on Dec 13,2025, Elapsed time: 0:11:00
+# Errors: 0, Warnings: 0
+project compileall
+# Compile of sum_product.v was successful.
+# Compile of easy_verilog_example.v was successful.
+# Compile of literal_values.v was successful.
+# Compile of easy_vectors_example.v was successful.
+# Compile of bitwise_operators.v was successful.
+# Compile of reduction_operators.v was successful.
+# 6 compiles, 0 failed with no errors.
+vsim -gui work.reduction_operators
+# vsim -gui work.reduction_operators 
+# Start time: 21:11:14 on Dec 13,2025
+# Loading work.reduction_operators
+run -all
+# MON my_val1 = 11111, my_val2 = 101011010, result = 1
+# MON my_val1 = 11111, my_val2 = 101011010, result = 0
+# MON my_val1 = 11111, my_val2 = 101011010, result = 1
+# MON my_val1 = 11111, my_val2 = 101011010, result = 0
+# MON my_val1 = 11111, my_val2 = 101011010, result = 1
+# MON my_val1 = 11111, my_val2 = 101011010, result = 0
+# Compile of reduction_operators.v was successful.
+restart
+# Loading work.reduction_operators
+run -all
+# MON my_val1 = 11111, my_val2 = 101011010, result = x
+# MON my_val1 = 11111, my_val2 = 101011010, result = 1
+# MON my_val1 = 11111, my_val2 = 101011010, result = 0
+# MON my_val1 = 11111, my_val2 = 101011010, result = 1
+# MON my_val1 = 11111, my_val2 = 101011010, result = 0
+# MON my_val1 = 11111, my_val2 = 101011010, result = 1
+# MON my_val1 = 11111, my_val2 = 101011010, result = 0
+# Compile of reduction_operators.v was successful.
+restart
+# Loading work.reduction_operators
+run -all
+# MON my_val1 = 11111, my_val2 = 101011010, result = x
+# MON my_val1 = 11111, my_val2 = 101011010, result = 1
+# MON my_val1 = 11111, my_val2 = 101011010, result = 0
+# MON my_val1 = 11111, my_val2 = 101011010, result = 1
+# MON my_val1 = 11111, my_val2 = 101011010, result = 0
+# MON my_val1 = 11111, my_val2 = 101011010, result = 1
+# MON my_val1 = 11111, my_val2 = 101011010, result = 0
+quit -sim
+# End time: 22:22:08 on Dec 13,2025, Elapsed time: 1:10:54
+# Errors: 0, Warnings: 0
+# Compile of sum_product.v was successful.
+# Compile of easy_verilog_example.v was successful.
+# Compile of literal_values.v was successful.
+# Compile of easy_vectors_example.v was successful.
+# Compile of bitwise_operators.v was successful.
+# Compile of reduction_operators.v was successful.
+# 6 compiles, 0 failed with no errors.
+# Compile of logical_operators.v was successful.
+vsim -gui work.logical_operators
+# vsim -gui work.logical_operators 
+# Start time: 22:22:39 on Dec 13,2025
+# Loading work.logical_operators
+run -all
+# MON my_val1 = 111, my_val2 = 0000, result = 0
+# MON my_val1 = 111, my_val2 = 0000, result = 1
+# MON my_val1 = 111, my_val2 = 0000, result = 0
+# MON my_val1 = 111, my_val2 = 0000, result = 1
+# MON my_val1 = z0x, my_val2 = 0000, result = x
+# MON my_val1 = z0x, my_val2 = 0000, result = 0
+# MON my_val1 = z0x, my_val2 = 0000, result = x
+project compileall
+# Compile of sum_product.v was successful.
+# Compile of easy_verilog_example.v was successful.
+# Compile of literal_values.v was successful.
+# Compile of easy_vectors_example.v was successful.
+# Compile of bitwise_operators.v was successful.
+# Compile of reduction_operators.v was successful.
+# Compile of logical_operators.v was successful.
+# 7 compiles, 0 failed with no errors.
+restart -f
+# Loading work.logical_operators
+run -all
+# MON my_val1 = 011, my_val2 = 0000, result = 0
+# MON my_val1 = 011, my_val2 = 0000, result = 1
+# MON my_val1 = 011, my_val2 = 0000, result = 0
+# MON my_val1 = 011, my_val2 = 0000, result = 1
+# MON my_val1 = z0x, my_val2 = 0000, result = x
+# MON my_val1 = z0x, my_val2 = 0000, result = 0
+# MON my_val1 = z0x, my_val2 = 0000, result = x
+quit -sim
+# End time: 22:34:09 on Dec 13,2025, Elapsed time: 0:11:30
+# Errors: 0, Warnings: 0
+# Compile of logical_ooperators_usage.v failed with 1 errors.
+project compileall
+# Compile of sum_product.v was successful.
+# Compile of easy_verilog_example.v was successful.
+# Compile of literal_values.v was successful.
+# Compile of easy_vectors_example.v was successful.
+# Compile of bitwise_operators.v was successful.
+# Compile of reduction_operators.v was successful.
+# Compile of logical_operators.v was successful.
+# Compile of logical_ooperators_usage.v was successful.
+# 8 compiles, 0 failed with no errors.
+vsim -gui work.logical_ooperators_usage
+# vsim -gui work.logical_ooperators_usage 
+# Start time: 22:35:41 on Dec 13,2025
+# ** Error: (vsim-3170) Could not find 'logical_ooperators_usage'.
+#         Searched libraries:
+#             C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/MS/work
+# Error loading design
+# End time: 22:35:42 on Dec 13,2025, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+vsim -gui work.logical_ooperators_usage
+# vsim -gui work.logical_ooperators_usage 
+# Start time: 22:35:52 on Dec 13,2025
+# ** Error: (vsim-3170) Could not find 'logical_ooperators_usage'.
+#         Searched libraries:
+#             C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/MS/work
+# Error loading design
+# End time: 22:35:52 on Dec 13,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+project compileall
+# Compile of sum_product.v was successful.
+# Compile of easy_verilog_example.v was successful.
+# Compile of literal_values.v was successful.
+# Compile of easy_vectors_example.v was successful.
+# Compile of bitwise_operators.v was successful.
+# Compile of reduction_operators.v was successful.
+# Compile of logical_operators.v was successful.
+# Compile of logical_ooperators_usage.v was successful.
+# 8 compiles, 0 failed with no errors.
+vsim -gui work.logical_ooperators_usage
+# vsim -gui work.logical_ooperators_usage 
+# Start time: 22:36:28 on Dec 13,2025
+# ** Error: (vsim-3170) Could not find 'logical_ooperators_usage'.
+#         Searched libraries:
+#             C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/MS/work
+# Error loading design
+# End time: 22:36:28 on Dec 13,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# Compile of logical_operators_usage.v was successful.
+vsim -gui work.logical_operators_usage
+# vsim -gui work.logical_operators_usage 
+# Start time: 22:37:13 on Dec 13,2025
+# Loading work.logical_operators_usage
+quit -sim
+# End time: 22:37:20 on Dec 13,2025, Elapsed time: 0:00:07
+# Errors: 0, Warnings: 0
+vsim -gui work.logical_operators_usage
+# vsim -gui work.logical_operators_usage 
+# Start time: 22:37:30 on Dec 13,2025
+# Loading work.logical_operators_usage
+run -all
+# :( I expected my_val1 = 0 but my_val1 = 111
+# GREAT! my_val2 = 0000
+# GREAT! my_val1 = 111 my_val2 = 0000
+# WHILE LOOP my_val2 =  0
+# WHILE LOOP my_val2 =  1
+# WHILE LOOP my_val2 =  2
+quit -sim
+# End time: 22:52:04 on Dec 13,2025, Elapsed time: 0:14:34
+# Errors: 0, Warnings: 0
+project compileall
+# Compile of sum_product.v was successful.
+# Compile of easy_verilog_example.v was successful.
+# Compile of literal_values.v was successful.
+# Compile of easy_vectors_example.v was successful.
+# Compile of bitwise_operators.v was successful.
+# Compile of reduction_operators.v was successful.
+# Compile of logical_operators.v was successful.
+# Compile of logical_operators_usage.v was successful.
+# Compile of math_operators.v failed with 1 errors.
+# 9 compiles, 1 failed with 1 error.
+project compileall
+# Compile of sum_product.v was successful.
+# Compile of easy_verilog_example.v was successful.
+# Compile of literal_values.v was successful.
+# Compile of easy_vectors_example.v was successful.
+# Compile of bitwise_operators.v was successful.
+# Compile of reduction_operators.v was successful.
+# Compile of logical_operators.v was successful.
+# Compile of logical_operators_usage.v was successful.
+# Compile of math_operators.v was successful with warnings.
+# 9 compiles, 0 failed with no errors.
+project compileall
+# Compile of sum_product.v was successful.
+# Compile of easy_verilog_example.v was successful.
+# Compile of literal_values.v was successful.
+# Compile of easy_vectors_example.v was successful.
+# Compile of bitwise_operators.v was successful.
+# Compile of reduction_operators.v was successful.
+# Compile of logical_operators.v was successful.
+# Compile of logical_operators_usage.v was successful.
+# Compile of math_operators.v was successful.
+# 9 compiles, 0 failed with no errors.
+vsim -gui work.math_operations
+# vsim -gui work.math_operations 
+# Start time: 22:53:33 on Dec 13,2025
+# ** Error: (vsim-3170) Could not find 'math_operations'.
+#         Searched libraries:
+#             C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/MS/work
+# Error loading design
+# End time: 22:53:33 on Dec 13,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vsim -gui work.math_operators
+# vsim -gui work.math_operators 
+# Start time: 22:53:40 on Dec 13,2025
+# Loading work.math_operators
+run -all
+# MON a = 2, b = 3, result = 8
+# MON a = 2, b = 3, result = 9
+# MON a = 177, b = 12, result = 2124
+# MON a = 199, b = 19, result = 10
+# MON a = 199, b = 19, result = 9
+# MON a = 199, b = -19, result = 9
+# MON a = 4199, b = -2319, result = 1880
+# MON a = 19234, b = -16, result = 19250
+# MON a = 919234, b = 13, result = 493250
