@@ -1,9 +1,9 @@
-C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Operators_Code/logical_operators_usage.v {1 {vlog -work work -stats=none C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Operators_Code/logical_operators_usage.v
+C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Modules_Code/adder8bit.v {1 {vlog -work work -stats=none C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Modules_Code/adder8bit.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module logical_operators_usage
+-- Compiling module adder8bit
 
 Top level modules:
-	logical_operators_usage
+	adder8bit
 
 } {} {}} C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Operators_Code/logical_operators.v {1 {vlog -work work -stats=none C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Operators_Code/logical_operators.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
@@ -12,19 +12,19 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 Top level modules:
 	logical_operators
 
-} {} {}} C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Operators_Code/bitwise_operators.v {1 {vlog -work work -stats=none C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Operators_Code/bitwise_operators.v
-Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module bitwise_operators
-
-Top level modules:
-	bitwise_operators
-
 } {} {}} C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Data_Types_Code/easy_vectors_example.v {1 {vlog -work work -stats=none C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Data_Types_Code/easy_vectors_example.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 -- Compiling module easy_vectors_example
 
 Top level modules:
 	easy_vectors_example
+
+} {} {}} C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Operators_Code/relational_operators.v {1 {vlog -work work -stats=none C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Operators_Code/relational_operators.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module relational_operators
+
+Top level modules:
+	relational_operators
 
 } {} {}} C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Operators_Code/reduction_operators.v {1 {vlog -work work -stats=none C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Operators_Code/reduction_operators.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
@@ -47,11 +47,74 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 Top level modules:
 	easy_verilog_example
 
+} {} {}} C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Operators_Code/operators_precedence.v {1 {vlog -work work -stats=none C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Operators_Code/operators_precedence.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module operators_precedence
+
+Top level modules:
+	operators_precedence
+
+} {} {}} C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Operators_Code/equality_operators.v {1 {vlog -work work -stats=none C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Operators_Code/equality_operators.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module equality_operators
+
+Top level modules:
+	equality_operators
+
+} {} {}} C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Operators_Code/conditional_operator.v {1 {vlog -work work -stats=none C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Operators_Code/conditional_operator.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module conditional_operator
+
+Top level modules:
+	conditional_operator
+
+} {} {}} C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Operators_Code/math_operators.v {1 {vlog -work work -stats=none C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Operators_Code/math_operators.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module math_operators
+
+Top level modules:
+	math_operators
+
 } {} {}} C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Data_Types_Code/sum_product.v {1 {vlog -work work -stats=none C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Data_Types_Code/sum_product.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 -- Compiling module sum_product
 
 Top level modules:
 	sum_product
+
+} {} {}} C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Operators_Code/shift_operators.v {1 {vlog -work work -stats=none C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Operators_Code/shift_operators.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module shift_operators
+
+Top level modules:
+	shift_operators
+
+} {} {}} C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Operators_Code/logical_operators_usage.v {1 {vlog -work work -stats=none C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Operators_Code/logical_operators_usage.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module logical_operators_usage
+
+Top level modules:
+	logical_operators_usage
+
+} {} {}} C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Operators_Code/bitwise_operators.v {1 {vlog -work work -stats=none C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Operators_Code/bitwise_operators.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module bitwise_operators
+
+Top level modules:
+	bitwise_operators
+
+} {} {}} C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Operators_Code/replication_operator.v {1 {vlog -work work -stats=none C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Operators_Code/replication_operator.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module replication_operator
+
+Top level modules:
+	replication_operator
+
+} {} {}} C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Operators_Code/concatention_operator.v {1 {vlog -work work -stats=none C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Operators_Code/concatention_operator.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module concatenation_operator
+
+Top level modules:
+	concatenation_operator
 
 } {} {}}

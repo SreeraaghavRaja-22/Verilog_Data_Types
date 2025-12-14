@@ -30,7 +30,7 @@ integer result;
         b = -19; 
         result = a % b; // remainder negative (use with caution for critical systems operations)
         // verilog defines modulo as a % b = a - (a/b)*b where a/b is always truncated, so if we get like -10.55 for the division, we still truncate it down to -
-        10 
+
 
         #1; 
         a = 4199; 
