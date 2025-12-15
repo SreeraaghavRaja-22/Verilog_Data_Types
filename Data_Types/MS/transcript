@@ -1,329 +1,21 @@
-project compileoutofdate
-# Compile of adder8tb.v was successful.
-# Compile of adder8bit.v was successful.
-# 2 compiles, 0 failed with no errors.
-vsim -gui work.adder8tb
-# vsim -gui work.adder8tb 
-# Start time: 16:25:20 on Dec 14,2025
-# ** Error: (vsim-3170) Could not find 'adder8tb'.
-#         Searched libraries:
-#             C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/MS/work
-# Error loading design
-# End time: 16:25:20 on Dec 14,2025, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 0
-project compileoutofdate
-# Compile of adder8tb.v was successful.
-vsim -gui work.adder8tb
-# vsim -gui work.adder8tb 
-# Start time: 16:26:08 on Dec 14,2025
-# ** Error: (vsim-3170) Could not find 'adder8tb'.
-#         Searched libraries:
-#             C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/MS/work
-# Error loading design
-# End time: 16:26:08 on Dec 14,2025, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 0
-vsim -gui work.adder8testbench
-# vsim -gui work.adder8testbench 
-# Start time: 16:26:19 on Dec 14,2025
-# Loading work.adder8testbench
-# Loading work.adder8bit
-# ** Error: (vsim-3063) C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/MS/adder8tb.v(8): Port 'sum' not found in the connected module (3rd connection).
-#    Time: 0 ps  Iteration: 0  Instance: /adder8testbench/ADDER1 File: C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Modules_Code/adder8bit.v
-# Error loading design
-# End time: 16:26:19 on Dec 14,2025, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 0
-project compileoutofdate
-# Compile of adder8bit.v was successful.
-vsim -gui work.adder8tb
-# vsim -gui work.adder8tb 
-# Start time: 16:27:06 on Dec 14,2025
-# ** Error: (vsim-3170) Could not find 'adder8tb'.
-#         Searched libraries:
-#             C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/MS/work
-# Error loading design
-# End time: 16:27:07 on Dec 14,2025, Elapsed time: 0:00:01
-# Errors: 1, Warnings: 0
-vsim -gui work.adder8tb
-# vsim -gui work.adder8tb 
-# Start time: 16:27:11 on Dec 14,2025
-# ** Error: (vsim-3170) Could not find 'adder8tb'.
-#         Searched libraries:
-#             C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/MS/work
-# Error loading design
-# End time: 16:27:11 on Dec 14,2025, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 0
-project compileoutofdate
-vsim -gui work.adder8tb
-# vsim -gui work.adder8tb 
-# Start time: 16:27:17 on Dec 14,2025
-# ** Error: (vsim-3170) Could not find 'adder8tb'.
-#         Searched libraries:
-#             C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/MS/work
-# Error loading design
-# End time: 16:27:17 on Dec 14,2025, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 0
 project compileall
-# Compile of sum_product.v was successful.
-# Compile of easy_verilog_example.v was successful.
-# Compile of literal_values.v was successful.
-# Compile of easy_vectors_example.v was successful.
-# Compile of bitwise_operators.v was successful.
-# Compile of reduction_operators.v was successful.
-# Compile of logical_operators.v was successful.
-# Compile of logical_operators_usage.v was successful.
-# Compile of math_operators.v was successful.
-# Compile of shift_operators.v was successful.
-# Compile of relational_operators.v was successful.
-# Compile of equality_operators.v was successful.
-# Compile of conditional_operator.v was successful.
-# Compile of concatention_operator.v was successful.
-# Compile of replication_operator.v was successful.
-# Compile of operators_precedence.v was successful.
-# Compile of adder8bit.v was successful.
-# Compile of adder8tb.v was successful.
-# 18 compiles, 0 failed with no errors.
-project compileoutofdate
-# Compile of adder8tb.v was successful.
-vsim -gui work.adder8tb
-# vsim -gui work.adder8tb 
-# Start time: 16:28:36 on Dec 14,2025
-# Loading work.adder8tb
-# Loading work.adder8bit
-# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
-#           File in use by: sreer  Hostname: AURORA  ProcessID: 3512
-#           Attempting to use alternate WLF file "./wlftmm2h0d".
-# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-#           Using alternate file: ./wlftmm2h0d
-run -all
-# a =   0, b =   0, sum =   0
-# a =   1, b =   0, sum =   1
-# a =   1, b =  10, sum =  11
-# a =   3, b =  99, sum = 102
-# a = 101, b =  66, sum = 167
-# a = 255, b = 255, sum = 510
-project compileoutofdate
-# Compile of adder8tb.v was successful.
-restart -f
-# Loading work.adder8tb
-run -all
-# a =   0, b =   0, sum =   0
-# a =   1, b =   0, sum =   1
-# a =   1, b =  10, sum =  11
-# a =   3, b =  99, sum = 102
-# a = 101, b =  66, sum = 167
-# a = 255, b = 255, sum = 510
-quit -sim
-# End time: 16:41:08 on Dec 14,2025, Elapsed time: 0:12:32
-# Errors: 0, Warnings: 2
-vsim -gui work.adder8tb
-# vsim -gui work.adder8tb 
-# Start time: 16:41:35 on Dec 14,2025
-# Loading work.adder8tb
-# Loading work.adder8bit
-quit -sim
-# End time: 16:41:41 on Dec 14,2025, Elapsed time: 0:00:06
-# Errors: 0, Warnings: 0
+# 0 compiles, 23 failed with no errors.
+
+
 project compileall
-# Compile of sum_product.v was successful.
-# Compile of easy_verilog_example.v was successful.
-# Compile of literal_values.v was successful.
-# Compile of easy_vectors_example.v was successful.
-# Compile of bitwise_operators.v was successful.
-# Compile of reduction_operators.v was successful.
-# Compile of logical_operators.v was successful.
-# Compile of logical_operators_usage.v was successful.
-# Compile of math_operators.v was successful.
-# Compile of shift_operators.v was successful.
-# Compile of relational_operators.v was successful.
-# Compile of equality_operators.v was successful.
-# Compile of conditional_operator.v was successful.
-# Compile of concatention_operator.v was successful.
-# Compile of replication_operator.v was successful.
-# Compile of operators_precedence.v was successful.
-# Compile of adder8bit.v was successful.
-# Compile of adder8tb.v was successful.
-# Compile of waverforms.v failed with 2 errors.
-# 19 compiles, 1 failed with 2 errors.
-project compileall
-# Compile of sum_product.v was successful.
-# Compile of easy_verilog_example.v was successful.
-# Compile of literal_values.v was successful.
-# Compile of easy_vectors_example.v was successful.
-# Compile of bitwise_operators.v was successful.
-# Compile of reduction_operators.v was successful.
-# Compile of logical_operators.v was successful.
-# Compile of logical_operators_usage.v was successful.
-# Compile of math_operators.v was successful.
-# Compile of shift_operators.v was successful.
-# Compile of relational_operators.v was successful.
-# Compile of equality_operators.v was successful.
-# Compile of conditional_operator.v was successful.
-# Compile of concatention_operator.v was successful.
-# Compile of replication_operator.v was successful.
-# Compile of operators_precedence.v was successful.
-# Compile of adder8bit.v was successful.
-# Compile of adder8tb.v was successful.
-# Compile of waverforms.v failed with 1 errors.
-# 19 compiles, 1 failed with 1 error.
-project compileall
-# Compile of sum_product.v was successful.
-# Compile of easy_verilog_example.v was successful.
-# Compile of literal_values.v was successful.
-# Compile of easy_vectors_example.v was successful.
-# Compile of bitwise_operators.v was successful.
-# Compile of reduction_operators.v was successful.
-# Compile of logical_operators.v was successful.
-# Compile of logical_operators_usage.v was successful.
-# Compile of math_operators.v was successful.
-# Compile of shift_operators.v was successful.
-# Compile of relational_operators.v was successful.
-# Compile of equality_operators.v was successful.
-# Compile of conditional_operator.v was successful.
-# Compile of concatention_operator.v was successful.
-# Compile of replication_operator.v was successful.
-# Compile of operators_precedence.v was successful.
-# Compile of adder8bit.v was successful.
-# Compile of adder8tb.v was successful.
-# Compile of waverforms.v was successful.
-# 19 compiles, 0 failed with no errors.
-vsim -gui work.waveforms
-# vsim -gui work.waveforms 
-# Start time: 16:43:11 on Dec 14,2025
-# Loading work.waveforms
-# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
-#           File in use by: sreer  Hostname: AURORA  ProcessID: 3512
-#           Attempting to use alternate WLF file "./wlft26gs73".
-# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-#           Using alternate file: ./wlft26gs73
-run -all
-quit -sim
-# End time: 16:46:42 on Dec 14,2025, Elapsed time: 0:03:31
-# Errors: 0, Warnings: 2
-project compileoutofdate
-# Compile of half_adder_tb.v was successful.
-# Compile of half_adder_structural.v was successful.
-# 2 compiles, 0 failed with no errors.
-vsim -gui work.half_adder_tb
-# vsim -gui work.half_adder_tb 
-# Start time: 17:39:31 on Dec 14,2025
-# Loading work.half_adder_tb
-# Loading work.half_adder_structural
-# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
-#           File in use by: sreer  Hostname: AURORA  ProcessID: 3512
-#           Attempting to use alternate WLF file "./wlftx7tn44".
-# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-#           Using alternate file: ./wlftx7tn44
-run -all
-# a = x, b = x, sum = x, carry = x
-# a = 0, b = 0, sum = 0, carry = 0
-# a = 0, b = 1, sum = 1, carry = 0
-# a = 1, b = 0, sum = 1, carry = 0
-# a = 1, b = 1, sum = 0, carry = 1
-# a = 0, b = 0, sum = 0, carry = 0
-quit -sim
-# End time: 17:50:33 on Dec 14,2025, Elapsed time: 0:11:02
-# Errors: 0, Warnings: 2
-project compileoutofdate
-# Compile of half_adder_tb.v was successful.
-project compileoutofdate
-# Compile of half_adder_dataflow.v was successful.
-vsim -gui work.half_adder_tb
-# vsim -gui work.half_adder_tb 
-# Start time: 17:51:15 on Dec 14,2025
-# Loading work.half_adder_tb
-# Loading work.half_adder_dataflow
-# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
-#           File in use by: sreer  Hostname: AURORA  ProcessID: 3512
-#           Attempting to use alternate WLF file "./wlftqqj8xv".
-# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-#           Using alternate file: ./wlftqqj8xv
-run -all
-# a = x, b = x, sum = x, carry = x
-# a = 0, b = 0, sum = 0, carry = 0
-# a = 0, b = 1, sum = 1, carry = 0
-# a = 1, b = 0, sum = 1, carry = 0
-# a = 1, b = 1, sum = 0, carry = 1
-# a = 0, b = 0, sum = 0, carry = 0
-quit -sim
-# End time: 18:11:30 on Dec 14,2025, Elapsed time: 0:20:15
-# Errors: 0, Warnings: 2
-project compileall
-# Compile of sum_product.v was successful.
-# Compile of easy_verilog_example.v was successful.
-# Compile of literal_values.v was successful.
-# Compile of easy_vectors_example.v was successful.
-# Compile of bitwise_operators.v was successful.
-# Compile of reduction_operators.v was successful.
-# Compile of logical_operators.v was successful.
-# Compile of logical_operators_usage.v was successful.
-# Compile of math_operators.v was successful.
-# Compile of shift_operators.v was successful.
-# Compile of relational_operators.v was successful.
-# Compile of equality_operators.v was successful.
-# Compile of conditional_operator.v was successful.
-# Compile of concatention_operator.v was successful.
-# Compile of replication_operator.v was successful.
-# Compile of operators_precedence.v was successful.
-# Compile of adder8bit.v was successful.
-# Compile of adder8tb.v was successful.
-# Compile of waverforms.v was successful.
-# Compile of half_adder_tb.v was successful.
-# Compile of half_adder_structural.v was successful.
-# Compile of half_adder_dataflow.v was successful.
 # Compile of procedures_updated.v was successful.
-# 23 compiles, 0 failed with no errors.
-vsim -gui work.procedures_updated
-# vsim -gui work.procedures_updated 
-# Start time: 18:12:07 on Dec 14,2025
-# ** Error: (vsim-3170) Could not find 'procedures_updated'.
-#         Searched libraries:
-#             C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/MS/work
-# Error loading design
-# End time: 18:12:07 on Dec 14,2025, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 0
-project compileall
-# Compile of sum_product.v was successful.
-# Compile of easy_verilog_example.v was successful.
-# Compile of literal_values.v was successful.
-# Compile of easy_vectors_example.v was successful.
-# Compile of bitwise_operators.v was successful.
-# Compile of reduction_operators.v was successful.
-# Compile of logical_operators.v was successful.
-# Compile of logical_operators_usage.v was successful.
-# Compile of math_operators.v was successful.
-# Compile of shift_operators.v was successful.
-# Compile of relational_operators.v was successful.
-# Compile of equality_operators.v was successful.
-# Compile of conditional_operator.v was successful.
-# Compile of concatention_operator.v was successful.
-# Compile of replication_operator.v was successful.
-# Compile of operators_precedence.v was successful.
-# Compile of adder8bit.v was successful.
-# Compile of adder8tb.v was successful.
-# Compile of waverforms.v was successful.
-# Compile of half_adder_tb.v was successful.
-# Compile of half_adder_structural.v was successful.
-# Compile of half_adder_dataflow.v was successful.
-# Compile of procedures_updated.v was successful.
-# 23 compiles, 0 failed with no errors.
-vsim -gui work.procedures_updated
-# vsim -gui work.procedures_updated 
-# Start time: 18:12:29 on Dec 14,2025
-# ** Error: (vsim-3170) Could not find 'procedures_updated'.
-#         Searched libraries:
-#             C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/MS/work
-# Error loading design
-# End time: 18:12:29 on Dec 14,2025, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 0
 vsim -gui work.procedures
 # vsim -gui work.procedures 
-# Start time: 18:12:45 on Dec 14,2025
+# Start time: 22:36:28 on Dec 14,2025
 # Loading work.procedures
 # ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
 #           File in use by: sreer  Hostname: AURORA  ProcessID: 3512
-#           Attempting to use alternate WLF file "./wlftbnwe7n".
+#           Attempting to use alternate WLF file "./wlft44zxc7".
 # ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-#           Using alternate file: ./wlftbnwe7n
+#           Using alternate file: ./wlft44zxc7
+# Paste insertion failed: sim:/procedures: ** UI-Msg: (vish-4014) No objects found matching '/procedures'.
+# Paste insertion failed: sim:/procedures: ** UI-Msg: (vish-4014) No objects found matching '/procedures'.
+# Paste insertion failed: sim:/procedures: ** UI-Msg: (vish-4014) No objects found matching '/procedures'.
 run -all
 #                    1 MON_VAR1: var1 = 10
 #                    1 MON_ALL: var1 = 10, var2 = 99, sum = 109, product = x
@@ -337,3 +29,148 @@ run -all
 #                    4 MON_ALL: var1 = 132, var2 = 4, sum = 136, product = 528
 #                    5 MON_ALL: var1 = 132, var2 = 5, sum = 137, product = 528
 #                    5 MON_ALL: var1 = 132, var2 = 5, sum = 137, product = 660
+quit -sim
+# End time: 22:43:23 on Dec 14,2025, Elapsed time: 0:06:55
+# Errors: 0, Warnings: 9
+project compileall
+# Compile of procedures_updated.v was successful.
+# Compile of full_adder_structural.v failed with 2 errors.
+# Compile of full_adder_tb.v failed with 5 errors.
+# 3 compiles, 2 failed with 7 errors.
+project compileall
+# Compile of procedures_updated.v was successful.
+# Compile of full_adder_structural.v failed with 2 errors.
+# Compile of full_adder_tb.v failed with 5 errors.
+# 3 compiles, 2 failed with 7 errors.
+# Compile of full_adder_structural.v failed with 2 errors.
+# Compile of full_adder_tb.v failed with 5 errors.
+# 2 compiles, 2 failed with 7 errors.
+project compileoutofdate
+# Compile of full_adder_structural.v was successful.
+# Compile of full_adder_tb.v failed with 5 errors.
+# 2 compiles, 1 failed with 5 errors.
+project compileoutofdate
+# Compile of full_adder_tb.v failed with 5 errors.
+project compileoutofdate
+# Compile of full_adder_tb.v failed with 5 errors.
+project compileoutofdate
+# Compile of full_adder_tb.v was successful.
+vsim -gui work.full_adder_tb
+# vsim -gui work.full_adder_tb 
+# Start time: 23:13:34 on Dec 14,2025
+# Loading work.full_adder_tb
+# Loading work.full_adder_structural
+# ** Fatal: (vsim-3381) Obsolete library format for design unit. Design unit 'C:/Users/sreer/School/My_Learning/Verilog_Data_Types/Data_Types/MS/work.half_adder_structural'
+#    Time: 0 ps  Iteration: 0  Instance: /full_adder_tb/FA File: C:/Users/sreer/School/My_Learning/Verilog_Data_Types/Data_Types/Design_Styles_Code/full_adder_structural.v
+# FATAL ERROR while loading design
+# Error loading design
+# End time: 23:13:35 on Dec 14,2025, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 9
+project compileoutofdate
+# Compile of half_adder_structural.v was successful.
+vsim -gui work.full_adder_tb
+# vsim -gui work.full_adder_tb 
+# Start time: 23:14:17 on Dec 14,2025
+# Loading work.full_adder_tb
+# Loading work.full_adder_structural
+# Loading work.half_adder_structural
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: sreer  Hostname: AURORA  ProcessID: 3512
+#           Attempting to use alternate WLF file "./wlft0vsdn9".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft0vsdn9
+run -all
+# MON a = x, b = x, c = x, sum = x, cout = x
+# MON a = 0, b = 0, c = 0, sum = 0, cout = 0
+# MON a = 0, b = 0, c = 1, sum = 1, cout = 0
+# MON a = 0, b = 1, c = 0, sum = 1, cout = 0
+# MON a = 0, b = 1, c = 1, sum = 0, cout = 1
+# MON a = 1, b = 0, c = 0, sum = 1, cout = 0
+# MON a = 1, b = 0, c = 1, sum = 0, cout = 1
+# MON a = 1, b = 1, c = 0, sum = 0, cout = 1
+# MON a = 1, b = 1, c = 1, sum = 1, cout = 1
+# MON a = 0, b = 0, c = 0, sum = 0, cout = 0
+quit -sim
+# End time: 23:16:32 on Dec 14,2025, Elapsed time: 0:02:15
+# Errors: 0, Warnings: 5
+project compileoutofdate
+# Compile of full_adder_tb.v was successful.
+# Compile of full_adder_dataflow.v failed with 2 errors.
+# 2 compiles, 1 failed with 2 errors.
+# Error opening C:/Users/sreer/School/My_Learning/Verilog_Data_Types/Data_Types/MS/(vlog-13069) C:/Users/sreer/School/My_Learning/Verilog_Data_Types/Data_Types/Design_Styles_Code/full_adder_dataflow.v
+# Path name 'C:/Users/sreer/School/My_Learning/Verilog_Data_Types/Data_Types/MS/(vlog-13069) C:/Users/sreer/School/My_Learning/Verilog_Data_Types/Data_Types/Design_Styles_Code/full_adder_dataflow.v' doesn't exist.
+# Error opening C:/Users/sreer/School/My_Learning/Verilog_Data_Types/Data_Types/MS/(vlog-13069) C:/Users/sreer/School/My_Learning/Verilog_Data_Types/Data_Types/Design_Styles_Code/full_adder_dataflow.v
+# Path name 'C:/Users/sreer/School/My_Learning/Verilog_Data_Types/Data_Types/MS/(vlog-13069) C:/Users/sreer/School/My_Learning/Verilog_Data_Types/Data_Types/Design_Styles_Code/full_adder_dataflow.v' doesn't exist.
+project compileoutofdate
+# Compile of full_adder_dataflow.v failed with 2 errors.
+project compileoutofdate
+# Compile of full_adder_dataflow.v was successful.
+vsim -gui work.full_adder_tb
+# vsim -gui work.full_adder_tb 
+# Start time: 23:31:57 on Dec 14,2025
+# Loading work.full_adder_tb
+# Loading work.full_adder_dataflow
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: sreer  Hostname: AURORA  ProcessID: 3512
+#           Attempting to use alternate WLF file "./wlftfkx05e".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftfkx05e
+# Can't move the Now cursor.
+run -all
+# MON a = x, b = x, c = x, sum = x, cout = x
+# MON a = 0, b = 0, c = 0, sum = 0, cout = 0
+# MON a = 0, b = 0, c = 1, sum = 1, cout = 0
+# MON a = 0, b = 1, c = 0, sum = 1, cout = 0
+# MON a = 0, b = 1, c = 1, sum = 0, cout = 1
+# MON a = 1, b = 0, c = 0, sum = 1, cout = 0
+# MON a = 1, b = 0, c = 1, sum = 0, cout = 1
+# MON a = 1, b = 1, c = 0, sum = 0, cout = 1
+# MON a = 1, b = 1, c = 1, sum = 1, cout = 1
+# MON a = 0, b = 0, c = 0, sum = 0, cout = 0
+quit -sim
+# End time: 23:43:41 on Dec 14,2025, Elapsed time: 0:11:44
+# Errors: 0, Warnings: 7
+# Compile of full_adder_behavioral.v was successful.
+# Compile of full_adder_tb.v was successful.
+vsim -gui work.full_adder_tb
+# vsim -gui work.full_adder_tb 
+# Start time: 23:44:27 on Dec 14,2025
+# Loading work.full_adder_tb
+# Loading work.full_adder_behavioral
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: sreer  Hostname: AURORA  ProcessID: 3512
+#           Attempting to use alternate WLF file "./wlft6caz44".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft6caz44
+run -all
+# MON a = x, b = x, c = x, sum = x, cout = x
+# MON a = 0, b = 0, c = 0, sum = 0, cout = 0
+# MON a = 0, b = 0, c = 1, sum = 1, cout = 0
+# MON a = 0, b = 1, c = 0, sum = 1, cout = 0
+# MON a = 0, b = 1, c = 1, sum = 0, cout = 1
+# MON a = 1, b = 0, c = 0, sum = 1, cout = 0
+# MON a = 1, b = 0, c = 1, sum = 0, cout = 1
+# MON a = 1, b = 1, c = 0, sum = 0, cout = 1
+# MON a = 1, b = 1, c = 1, sum = 1, cout = 1
+# MON a = 0, b = 0, c = 0, sum = 0, cout = 0
+project compileoutofdate
+# Compile of full_adder_behavioral.v failed with 2 errors.
+project compileoutofdate
+# Compile of full_adder_behavioral.v was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.full_adder_behavioral
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# MON a = x, b = x, c = x, sum = x, cout = x
+# MON a = 0, b = 0, c = 0, sum = 0, cout = 0
+# MON a = 0, b = 0, c = 1, sum = 1, cout = 0
+# MON a = 0, b = 1, c = 0, sum = 1, cout = 0
+# MON a = 0, b = 1, c = 1, sum = 0, cout = 1
+# MON a = 1, b = 0, c = 0, sum = 1, cout = 0
+# MON a = 1, b = 0, c = 1, sum = 0, cout = 1
+# MON a = 1, b = 1, c = 0, sum = 0, cout = 1
+# MON a = 1, b = 1, c = 1, sum = 1, cout = 1
+# MON a = 0, b = 0, c = 0, sum = 0, cout = 0

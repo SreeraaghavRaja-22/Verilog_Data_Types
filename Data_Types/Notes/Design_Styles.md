@@ -65,3 +65,14 @@ end
   - use for synthesizable code (transalte as logic gates and nets on silicon die)
   - @always block used for combinational **and** sequential design
   
+## Full-Adder
+
+- Half-Adder cannot process input carry from previous adder
+  - Full-Adder solves it
+- Full-Adder is a **cascade** of 2 half-adders
+- If we want to add 2 n-bit numbers, we can cascade n FULL ADDERS (ripple carry adder)
+
+```verilog
+S = A xor B xor Cin;
+Cout = (A and B) or Cin and (A xor B);
+```
