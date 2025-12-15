@@ -1,4 +1,11 @@
-C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Modules_Code/adder8bit.v {1 {vlog -work work -stats=none C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Modules_Code/adder8bit.v
+C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Design_Styles_Code/half_adder_dataflow.v {1 {vlog -work work -stats=none C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Design_Styles_Code/half_adder_dataflow.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module half_adder_dataflow
+
+Top level modules:
+	half_adder_dataflow
+
+} {} {}} C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Modules_Code/adder8bit.v {1 {vlog -work work -stats=none C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Modules_Code/adder8bit.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 -- Compiling module adder8bit
 
@@ -61,12 +68,26 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 Top level modules:
 	equality_operators
 
+} {} {}} C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Modules_Code/waverforms.v {1 {vlog -work work -stats=none C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Modules_Code/waverforms.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module waveforms
+
+Top level modules:
+	waveforms
+
 } {} {}} C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Operators_Code/conditional_operator.v {1 {vlog -work work -stats=none C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Operators_Code/conditional_operator.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 -- Compiling module conditional_operator
 
 Top level modules:
 	conditional_operator
+
+} {} {}} C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Modules_Code/adder8tb.v {1 {vlog -work work -stats=none C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Modules_Code/adder8tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module adder8tb
+
+Top level modules:
+	adder8tb
 
 } {} {}} C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Operators_Code/math_operators.v {1 {vlog -work work -stats=none C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Operators_Code/math_operators.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
@@ -89,6 +110,13 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 Top level modules:
 	shift_operators
 
+} {} {}} C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Design_Styles_Code/half_adder_tb.v {1 {vlog -work work -stats=none C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Design_Styles_Code/half_adder_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module half_adder_tb
+
+Top level modules:
+	half_adder_tb
+
 } {} {}} C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Operators_Code/logical_operators_usage.v {1 {vlog -work work -stats=none C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Operators_Code/logical_operators_usage.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 -- Compiling module logical_operators_usage
@@ -109,6 +137,13 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 
 Top level modules:
 	replication_operator
+
+} {} {}} C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Design_Styles_Code/half_adder_structural.v {1 {vlog -work work -stats=none C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Design_Styles_Code/half_adder_structural.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module half_adder_structural
+
+Top level modules:
+	half_adder_structural
 
 } {} {}} C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Operators_Code/concatention_operator.v {1 {vlog -work work -stats=none C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Operators_Code/concatention_operator.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016

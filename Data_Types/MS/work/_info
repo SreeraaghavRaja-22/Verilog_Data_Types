@@ -9,7 +9,7 @@ z2
 cModel Technology
 dC:/School/Fall_25/MISC/MS_Verilog_Course
 vadder8bit
-Z0 !s110 1765748582
+Z0 !s110 1765753947
 !i10b 1
 !s100 @UJ<LA`TNR`CJj83dQg1]1
 IabKF]bM^LDn8fAeQ7d>iH1
@@ -23,7 +23,7 @@ Z3 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z4 !s108 1765748582.000000
+Z4 !s108 1765753947.000000
 !s107 C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Modules_Code/adder8bit.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Modules_Code/adder8bit.v|
 !i113 1
@@ -72,7 +72,7 @@ r1
 R5
 R6
 vbitwise_operators
-R0
+Z7 !s110 1765753946
 !i10b 1
 !s100 ?b@?bUzzS8K@;[Qj34aio0
 I:diH9RGf=PLT932i1mh7i0
@@ -86,7 +86,7 @@ R3
 r1
 !s85 0
 31
-R4
+Z8 !s108 1765753946.000000
 !s107 C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Operators_Code/bitwise_operators.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Operators_Code/bitwise_operators.v|
 !i113 1
@@ -135,7 +135,7 @@ R4
 R5
 R6
 veasy_vectors_example
-R0
+R7
 !i10b 1
 !s100 Q_HS@Gf11K_Q^O;E1o6m63
 I_9WnM:C<b^[dDDaS_61A^3
@@ -149,14 +149,14 @@ R3
 r1
 !s85 0
 31
-R4
+R8
 !s107 C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Data_Types_Code/easy_vectors_example.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Data_Types_Code/easy_vectors_example.v|
 !i113 1
 R5
 R6
 veasy_verilog_example
-R0
+R7
 !i10b 1
 !s100 N6W^J9Fe7h3g1JY>FLemG2
 IO]?LT^DjheXF:P3DFk<Bk3
@@ -170,7 +170,7 @@ R3
 r1
 !s85 0
 31
-R4
+R8
 !s107 C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Data_Types_Code/easy_verilog_example.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Data_Types_Code/easy_verilog_example.v|
 !i113 1
@@ -197,8 +197,71 @@ R4
 !i113 1
 R5
 R6
-vliteral_values
+vhalf_adder_dataflow
 R0
+!i10b 1
+!s100 `M:c0@F0KGFTAl=ck^GTJ1
+I1fPQj4a=[6WHa0cdH@S0b0
+R1
+R2
+w1765752551
+8C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Design_Styles_Code/half_adder_dataflow.v
+FC:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Design_Styles_Code/half_adder_dataflow.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Design_Styles_Code/half_adder_dataflow.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Design_Styles_Code/half_adder_dataflow.v|
+!i113 1
+R5
+R6
+vhalf_adder_structural
+R0
+!i10b 1
+!s100 63h2g0hZ_B[EB??DE3bhZ1
+I4I[g[3]3^Mgd<]FYoHfFm3
+R1
+R2
+w1765751512
+8C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Design_Styles_Code/half_adder_structural.v
+FC:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Design_Styles_Code/half_adder_structural.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Design_Styles_Code/half_adder_structural.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Design_Styles_Code/half_adder_structural.v|
+!i113 1
+R5
+R6
+vhalf_adder_tb
+R0
+!i10b 1
+!s100 clNE0MLd6?8[HZ>H@a^PA2
+IBVnhBT9hIh8B640Za[1@z3
+R1
+R2
+w1765752589
+8C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Design_Styles_Code/half_adder_tb.v
+FC:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Design_Styles_Code/half_adder_tb.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Design_Styles_Code/half_adder_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Design_Styles_Code/half_adder_tb.v|
+!i113 1
+R5
+R6
+vliteral_values
+R7
 !i10b 1
 !s100 dBJW;AD5EDjdE5gR]b80U3
 I>?eFnJNGMiS1k^1V?:6M60
@@ -212,14 +275,14 @@ R3
 r1
 !s85 0
 31
-R4
+R8
 !s107 C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Data_Types_Code/literal_values.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Data_Types_Code/literal_values.v|
 !i113 1
 R5
 R6
 vlogical_operators
-R0
+R7
 !i10b 1
 !s100 o>:[ne0^F`Dc2201zi=SR2
 IfTV=McQEiEn=Dd4HdMW8W0
@@ -233,7 +296,7 @@ R3
 r1
 !s85 0
 31
-R4
+R8
 !s107 C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Operators_Code/logical_operators.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Operators_Code/logical_operators.v|
 !i113 1
@@ -302,8 +365,29 @@ R4
 !i113 1
 R5
 R6
-vreduction_operators
+vprocedures
 R0
+!i10b 1
+!s100 n;MDc7]eX>e2FY5Q<l?K20
+ITZA_@QHJ^bOI2ORNVZORT2
+R1
+R2
+w1765753817
+8C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Design_Styles_Code/procedures_updated.v
+FC:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Design_Styles_Code/procedures_updated.v
+L0 4
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Design_Styles_Code/procedures_updated.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Design_Styles_Code/procedures_updated.v|
+!i113 1
+R5
+R6
+vreduction_operators
+R7
 !i10b 1
 !s100 W2Ub55UbYN6E;hn6fM<Bo1
 Ifgni3FGE94QA`Jn`N>[m13
@@ -317,7 +401,7 @@ R3
 r1
 !s85 0
 31
-R4
+R8
 !s107 C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Operators_Code/reduction_operators.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Operators_Code/reduction_operators.v|
 !i113 1
@@ -387,7 +471,7 @@ R4
 R5
 R6
 vsum_product
-R0
+R7
 !i10b 1
 !s100 AYT9=8^[?AoBk1:3]LIb>1
 Il@hze:Yl]4NKCZef_ST<k3
@@ -401,7 +485,7 @@ R3
 r1
 !s85 0
 31
-R4
+R8
 !s107 C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Data_Types_Code/sum_product.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Data_Types_Code/sum_product.v|
 !i113 1

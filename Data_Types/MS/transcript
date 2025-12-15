@@ -199,3 +199,141 @@ run -all
 quit -sim
 # End time: 16:46:42 on Dec 14,2025, Elapsed time: 0:03:31
 # Errors: 0, Warnings: 2
+project compileoutofdate
+# Compile of half_adder_tb.v was successful.
+# Compile of half_adder_structural.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.half_adder_tb
+# vsim -gui work.half_adder_tb 
+# Start time: 17:39:31 on Dec 14,2025
+# Loading work.half_adder_tb
+# Loading work.half_adder_structural
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: sreer  Hostname: AURORA  ProcessID: 3512
+#           Attempting to use alternate WLF file "./wlftx7tn44".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftx7tn44
+run -all
+# a = x, b = x, sum = x, carry = x
+# a = 0, b = 0, sum = 0, carry = 0
+# a = 0, b = 1, sum = 1, carry = 0
+# a = 1, b = 0, sum = 1, carry = 0
+# a = 1, b = 1, sum = 0, carry = 1
+# a = 0, b = 0, sum = 0, carry = 0
+quit -sim
+# End time: 17:50:33 on Dec 14,2025, Elapsed time: 0:11:02
+# Errors: 0, Warnings: 2
+project compileoutofdate
+# Compile of half_adder_tb.v was successful.
+project compileoutofdate
+# Compile of half_adder_dataflow.v was successful.
+vsim -gui work.half_adder_tb
+# vsim -gui work.half_adder_tb 
+# Start time: 17:51:15 on Dec 14,2025
+# Loading work.half_adder_tb
+# Loading work.half_adder_dataflow
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: sreer  Hostname: AURORA  ProcessID: 3512
+#           Attempting to use alternate WLF file "./wlftqqj8xv".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftqqj8xv
+run -all
+# a = x, b = x, sum = x, carry = x
+# a = 0, b = 0, sum = 0, carry = 0
+# a = 0, b = 1, sum = 1, carry = 0
+# a = 1, b = 0, sum = 1, carry = 0
+# a = 1, b = 1, sum = 0, carry = 1
+# a = 0, b = 0, sum = 0, carry = 0
+quit -sim
+# End time: 18:11:30 on Dec 14,2025, Elapsed time: 0:20:15
+# Errors: 0, Warnings: 2
+project compileall
+# Compile of sum_product.v was successful.
+# Compile of easy_verilog_example.v was successful.
+# Compile of literal_values.v was successful.
+# Compile of easy_vectors_example.v was successful.
+# Compile of bitwise_operators.v was successful.
+# Compile of reduction_operators.v was successful.
+# Compile of logical_operators.v was successful.
+# Compile of logical_operators_usage.v was successful.
+# Compile of math_operators.v was successful.
+# Compile of shift_operators.v was successful.
+# Compile of relational_operators.v was successful.
+# Compile of equality_operators.v was successful.
+# Compile of conditional_operator.v was successful.
+# Compile of concatention_operator.v was successful.
+# Compile of replication_operator.v was successful.
+# Compile of operators_precedence.v was successful.
+# Compile of adder8bit.v was successful.
+# Compile of adder8tb.v was successful.
+# Compile of waverforms.v was successful.
+# Compile of half_adder_tb.v was successful.
+# Compile of half_adder_structural.v was successful.
+# Compile of half_adder_dataflow.v was successful.
+# Compile of procedures_updated.v was successful.
+# 23 compiles, 0 failed with no errors.
+vsim -gui work.procedures_updated
+# vsim -gui work.procedures_updated 
+# Start time: 18:12:07 on Dec 14,2025
+# ** Error: (vsim-3170) Could not find 'procedures_updated'.
+#         Searched libraries:
+#             C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/MS/work
+# Error loading design
+# End time: 18:12:07 on Dec 14,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+project compileall
+# Compile of sum_product.v was successful.
+# Compile of easy_verilog_example.v was successful.
+# Compile of literal_values.v was successful.
+# Compile of easy_vectors_example.v was successful.
+# Compile of bitwise_operators.v was successful.
+# Compile of reduction_operators.v was successful.
+# Compile of logical_operators.v was successful.
+# Compile of logical_operators_usage.v was successful.
+# Compile of math_operators.v was successful.
+# Compile of shift_operators.v was successful.
+# Compile of relational_operators.v was successful.
+# Compile of equality_operators.v was successful.
+# Compile of conditional_operator.v was successful.
+# Compile of concatention_operator.v was successful.
+# Compile of replication_operator.v was successful.
+# Compile of operators_precedence.v was successful.
+# Compile of adder8bit.v was successful.
+# Compile of adder8tb.v was successful.
+# Compile of waverforms.v was successful.
+# Compile of half_adder_tb.v was successful.
+# Compile of half_adder_structural.v was successful.
+# Compile of half_adder_dataflow.v was successful.
+# Compile of procedures_updated.v was successful.
+# 23 compiles, 0 failed with no errors.
+vsim -gui work.procedures_updated
+# vsim -gui work.procedures_updated 
+# Start time: 18:12:29 on Dec 14,2025
+# ** Error: (vsim-3170) Could not find 'procedures_updated'.
+#         Searched libraries:
+#             C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/MS/work
+# Error loading design
+# End time: 18:12:29 on Dec 14,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vsim -gui work.procedures
+# vsim -gui work.procedures 
+# Start time: 18:12:45 on Dec 14,2025
+# Loading work.procedures
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: sreer  Hostname: AURORA  ProcessID: 3512
+#           Attempting to use alternate WLF file "./wlftbnwe7n".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftbnwe7n
+run -all
+#                    1 MON_VAR1: var1 = 10
+#                    1 MON_ALL: var1 = 10, var2 = 99, sum = 109, product = x
+#                    1 MON_ALL: var1 = 10, var2 = 99, sum = 109, product = 990
+#                    2 MON_ALL: var1 = 10, var2 = 33, sum = 43, product = 990
+#                    2 MON_ALL: var1 = 10, var2 = 33, sum = 43, product = 330
+#                    3 MON_VAR1: var1 = 132
+#                    3 MON_ALL: var1 = 132, var2 = 33, sum = 165, product = 330
+#                    3 MON_ALL: var1 = 132, var2 = 33, sum = 165, product = 4356
+#                    4 MON_ALL: var1 = 132, var2 = 4, sum = 136, product = 4356
+#                    4 MON_ALL: var1 = 132, var2 = 4, sum = 136, product = 528
+#                    5 MON_ALL: var1 = 132, var2 = 5, sum = 137, product = 528
+#                    5 MON_ALL: var1 = 132, var2 = 5, sum = 137, product = 660
