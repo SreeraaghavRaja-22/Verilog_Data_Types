@@ -11,7 +11,62 @@
 
 - Connected to different modules to obtain desired functionality (top-level integration)
 - Inputs and outputs od different modules are connected to each other using nets
-  
+
+### More on Structural Design
+
+- Used in design and verification
+- Connect modules (components) for **top-level integration**
+- Introduces the concept of heirarchy in a design
+- Simple modules can be designed using **Verilog Built-In Primitives**
+
+### Verilog Built-In Primitives
+
+- Provide a way for gate and switch modeling (transistor circuits)
+- Have 1 output and n inputs depending on the type of gate
+- used to describe the concent of a Verilog **netlist** (a list of interconnected logic gates - the digital circuit)
+- **Logic Gates:** and, nand, or, nor, xor, xnor, buf, not
+- **Buffer / Inverter:** bufif0, bufif1, notif0, notif1
+- **MOS / CMOS / Bidirectional Pass:** nmos, pmos, rnmos, rpmos, cmos, rcmos, rtranif0, rtranif1, tranif1, tran, rtran
+- **Pullup / Pulldown:** pullup, pulldown
+- Syntax:
+  - gate(drive_strength) #(delays) instance_name[range] (list of ports);
+
+### Multiplexer
+
+- Circuit used to route multiple data sources to the same destination (on the same line)
+- Similar to a switch that selects between sources
+- Has at least 1 select line
+- 1bit can switch between 2 data sources
+- A multiplexer with 2^n inputs requires n select bits
+
+- Can be implmeneted with Tristate Buffers
+- Output has to be a net connected to both buffers
+
+### Demultiplexer
+
+- Circuit used to route one data source on multiple lines (decoder)
+- Does the reverse operation as a mux
+- Has at least 1 select line
+- 1bit select can switch between 2 data destinations
+- A demux with n select bits and 2^n outputs
+
+### Tri-State Buffer
+
+- Like a switch, it disconnects a circuit output from the destination net
+- 1 data input DIN
+- 1 select bit SEL (active-low or active-high depending on design)
+- 1 output line DOUT
+
+### Comparator (magnitude comparator)
+
+- Looking at 1 bit case
+- compares 2 binary numbers
+- only one of the outputs will be asserted (1'b1)
+- 3 outputs:
+  - A < B
+  - A == B
+  - A > B
+
 ## Dataflow
 
 - Write logic oprations (boolean) using bit-wise / reduction / shift / arithmetic operators
@@ -29,6 +84,7 @@ assign y = a & b; \\ dataflow style AND gate
 - Process relies on **input events** to generate **output events**
 - A process can contain on or more statements which are executed sequentially or in parallel
 - All processes **executed in parallel** and communicate using variables (wire / reg / int)
+- Does not care how the circuit is synthesized (leaves that for the synthesis tool)
 
 ```verilog
 always @(a or b) begin 

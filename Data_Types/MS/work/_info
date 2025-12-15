@@ -93,6 +93,69 @@ Z8 !s108 1765753946.000000
 !i113 1
 R5
 R6
+vbuilt_in_gates
+Z9 !s110 1765831086
+!i10b 1
+!s100 ;WJVkW;`kNVGZ3HmRPb:M0
+I<][JSf4GzC7kdTFQGoC0H0
+R1
+R2
+w1765825233
+8C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Structural_Code/built_in_gates.v
+FC:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Structural_Code/built_in_gates.v
+L0 3
+R3
+r1
+!s85 0
+31
+Z10 !s108 1765831086.000000
+!s107 C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Structural_Code/built_in_gates.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Structural_Code/built_in_gates.v|
+!i113 1
+R5
+R6
+vcomparator_1bit
+R9
+!i10b 1
+!s100 4ZAfY5S<T:OY8CT2:9EBE3
+Ik3Gc6G]JbS1@ZOHN7TXQP3
+R1
+R2
+w1765829787
+8C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Structural_Code/comparator_1bit.v
+FC:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Structural_Code/comparator_1bit.v
+L0 1
+R3
+r1
+!s85 0
+31
+R10
+!s107 C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Structural_Code/comparator_1bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Structural_Code/comparator_1bit.v|
+!i113 1
+R5
+R6
+vcomparator_tb
+R9
+!i10b 1
+!s100 Nc81<UVFPXjo[BzELogFg0
+I;6RX0Zzfe3A8eCdbg<P:C0
+R1
+R2
+w1765829814
+8C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Structural_Code/comparator_tb.v
+FC:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Structural_Code/comparator_tb.v
+L0 1
+R3
+r1
+!s85 0
+31
+R10
+!s107 C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Structural_Code/comparator_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Structural_Code/comparator_tb.v|
+!i113 1
+R5
+R6
 vconcatenation_operator
 R0
 !i10b 1
@@ -132,6 +195,48 @@ r1
 R4
 !s107 C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Operators_Code/conditional_operator.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Operators_Code/conditional_operator.v|
+!i113 1
+R5
+R6
+vdemux_1bit
+R9
+!i10b 1
+!s100 :HSC]O3UaEcCSJjYUPI310
+I[j`K:AWo__DTO@:k9<VDn3
+R1
+R2
+w1765827031
+8C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Structural_Code/demux_1bit.v
+FC:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Structural_Code/demux_1bit.v
+L0 1
+R3
+r1
+!s85 0
+31
+R10
+!s107 C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Structural_Code/demux_1bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Structural_Code/demux_1bit.v|
+!i113 1
+R5
+R6
+vdemux_tb
+R9
+!i10b 1
+!s100 liR?nEi59J_a4]=Hai]?a3
+InFbK>I6J6agoIc@eioDe71
+R1
+R2
+w1765827426
+8C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Structural_Code/demux_tb.v
+FC:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Structural_Code/demux_tb.v
+L0 3
+R3
+r1
+!s85 0
+31
+R10
+!s107 C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Structural_Code/demux_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Structural_Code/demux_tb.v|
 !i113 1
 R5
 R6
@@ -202,16 +307,16 @@ vfull_adder_behavioral
 !s110 1765773962
 !i10b 1
 !s100 H1`Ch7Tb>mAQB24WTHXWI1
-Z9 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Z11 !s11b Dg1SIo80bB@j0V0VzS_@n1
 IcZ]DM]c@_]G9_gXVkI1m:0
 R1
-Z10 dC:/Users/sreer/School/My_Learning/Verilog_Data_Types/Data_Types/MS
+Z12 dC:/Users/sreer/School/My_Learning/Verilog_Data_Types/Data_Types/MS
 w1765773957
 8C:/Users/sreer/School/My_Learning/Verilog_Data_Types/Data_Types/Design_Styles_Code/full_adder_behavioral.v
 FC:/Users/sreer/School/My_Learning/Verilog_Data_Types/Data_Types/Design_Styles_Code/full_adder_behavioral.v
 !i122 16
 L0 1 21
-Z11 OV;L;2020.1;71
+Z13 OV;L;2020.1;71
 r1
 !s85 0
 31
@@ -222,48 +327,44 @@ r1
 R5
 R6
 vfull_adder_dataflow
-!s110 1765773097
-!i10b 1
-!s100 L5KKT5W=cEY@nVU;Dc<]Y3
 R9
-I@LX[4UM1g_^4`VJ2ML^c71
+!i10b 1
+!s100 j4=KJQe?Wd`RzS>A[U6ER2
+IA^jObF>:?6koJP9Tk1IME0
 R1
-R10
-w1765773020
-8C:/Users/sreer/School/My_Learning/Verilog_Data_Types/Data_Types/Design_Styles_Code/full_adder_dataflow.v
-FC:/Users/sreer/School/My_Learning/Verilog_Data_Types/Data_Types/Design_Styles_Code/full_adder_dataflow.v
-!i122 13
-L0 1 22
-R11
+R2
+Z14 w1765819307
+8C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Design_Styles_Code/full_adder_dataflow.v
+FC:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Design_Styles_Code/full_adder_dataflow.v
+L0 1
+R3
 r1
 !s85 0
 31
-!s108 1765773096.000000
-!s107 C:/Users/sreer/School/My_Learning/Verilog_Data_Types/Data_Types/Design_Styles_Code/full_adder_dataflow.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/sreer/School/My_Learning/Verilog_Data_Types/Data_Types/Design_Styles_Code/full_adder_dataflow.v|
+R10
+!s107 C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Design_Styles_Code/full_adder_dataflow.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Design_Styles_Code/full_adder_dataflow.v|
 !i113 1
 R5
 R6
 vfull_adder_structural
-!s110 1765771921
+Z15 !s110 1765831085
 !i10b 1
-!s100 i80H[X?k:[HXf^9D?F[?Z2
-R9
-In03j:nZGQ6BUUM?KdZl[k2
+!s100 Iboa0Q^S>h[XgD71OWJAT3
+IIi3<bl39h5PfXh:XOLo?S2
 R1
-R10
-w1765771914
-8C:/Users/sreer/School/My_Learning/Verilog_Data_Types/Data_Types/Design_Styles_Code/full_adder_structural.v
-FC:/Users/sreer/School/My_Learning/Verilog_Data_Types/Data_Types/Design_Styles_Code/full_adder_structural.v
-!i122 6
-L0 1 28
-R11
+R2
+R14
+8C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Design_Styles_Code/full_adder_structural.v
+FC:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Design_Styles_Code/full_adder_structural.v
+L0 1
+R3
 r1
 !s85 0
 31
-!s108 1765771921.000000
-!s107 C:/Users/sreer/School/My_Learning/Verilog_Data_Types/Data_Types/Design_Styles_Code/full_adder_structural.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/sreer/School/My_Learning/Verilog_Data_Types/Data_Types/Design_Styles_Code/full_adder_structural.v|
+Z16 !s108 1765831085.000000
+!s107 C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Design_Styles_Code/full_adder_structural.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Design_Styles_Code/full_adder_structural.v|
 !i113 1
 R5
 R6
@@ -271,22 +372,43 @@ vfull_adder_tb
 !s110 1765773863
 !i10b 1
 !s100 PYQzzM_Qj76ckSZj7`hB70
-R9
+R11
 IWILe_d8=aLfZDeS=0KY]=3
 R1
-R10
+R12
 w1765773860
 8C:/Users/sreer/School/My_Learning/Verilog_Data_Types/Data_Types/Design_Styles_Code/full_adder_tb.v
 FC:/Users/sreer/School/My_Learning/Verilog_Data_Types/Data_Types/Design_Styles_Code/full_adder_tb.v
 !i122 15
 L0 1 33
-R11
+R13
 r1
 !s85 0
 31
 !s108 1765773863.000000
 !s107 C:/Users/sreer/School/My_Learning/Verilog_Data_Types/Data_Types/Design_Styles_Code/full_adder_tb.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/sreer/School/My_Learning/Verilog_Data_Types/Data_Types/Design_Styles_Code/full_adder_tb.v|
+!i113 1
+R5
+R6
+vgates_tb
+R9
+!i10b 1
+!s100 hI4e?56T_2]KXKNO8l::Z3
+I7W^cIPCZXMGUS1??kkO5`0
+R1
+R2
+w1765825479
+8C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Structural_Code/gates_tb.v
+FC:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Structural_Code/gates_tb.v
+L0 2
+R3
+r1
+!s85 0
+31
+R10
+!s107 C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Structural_Code/gates_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Structural_Code/gates_tb.v|
 !i113 1
 R5
 R6
@@ -312,25 +434,23 @@ R4
 R5
 R6
 vhalf_adder_structural
-!s110 1765772054
+R15
 !i10b 1
-!s100 05^HZb8z@cQPBfl]C;e]h0
-R9
-Iac2Uhm9mBmQS1F3lm8RK_3
+!s100 63h2g0hZ_B[EB??DE3bhZ1
+I4I[g[3]3^Mgd<]FYoHfFm3
 R1
-R10
-Z12 w1765769527
-8C:/Users/sreer/School/My_Learning/Verilog_Data_Types/Data_Types/Design_Styles_Code/half_adder_structural.v
-FC:/Users/sreer/School/My_Learning/Verilog_Data_Types/Data_Types/Design_Styles_Code/half_adder_structural.v
-!i122 11
-L0 1 12
-R11
+R2
+w1765751512
+8C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Design_Styles_Code/half_adder_structural.v
+FC:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Design_Styles_Code/half_adder_structural.v
+L0 1
+R3
 r1
 !s85 0
 31
-!s108 1765772054.000000
-!s107 C:/Users/sreer/School/My_Learning/Verilog_Data_Types/Data_Types/Design_Styles_Code/half_adder_structural.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/sreer/School/My_Learning/Verilog_Data_Types/Data_Types/Design_Styles_Code/half_adder_structural.v|
+R16
+!s107 C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Design_Styles_Code/half_adder_structural.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Design_Styles_Code/half_adder_structural.v|
 !i113 1
 R5
 R6
@@ -439,6 +559,48 @@ R4
 !i113 1
 R5
 R6
+vmux_1bit
+R9
+!i10b 1
+!s100 l=1NoFJ8Q6cHU2mOD8@^S0
+IWzfC@A;cV;2N9H:hg8BTe3
+R1
+R2
+w1765826231
+8C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Structural_Code/mux_1bit.v
+FC:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Structural_Code/mux_1bit.v
+L0 1
+R3
+r1
+!s85 0
+31
+R10
+!s107 C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Structural_Code/mux_1bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Structural_Code/mux_1bit.v|
+!i113 1
+R5
+R6
+vmux_tb
+R9
+!i10b 1
+!s100 P0a:5nJnmecL0]IomeEAg3
+IjgQ@8<3NgC2TS]K3[XRW23
+R1
+R2
+w1765828838
+8C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Structural_Code/mux_tb.v
+FC:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Structural_Code/mux_tb.v
+L0 2
+R3
+r1
+!s85 0
+31
+R10
+!s107 C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Structural_Code/mux_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Structural_Code/mux_tb.v|
+!i113 1
+R5
+R6
 voperators_precedence
 R0
 !i10b 1
@@ -464,16 +626,16 @@ vprocedures
 !s110 1765771887
 !i10b 1
 !s100 23_QjYKoT]LUcJ1f92bMN1
-R9
+R11
 I^Qb;K@Xk5Jg`_PcAMR8ZD1
 R1
-R10
 R12
+w1765769527
 8C:/Users/sreer/School/My_Learning/Verilog_Data_Types/Data_Types/Design_Styles_Code/procedures_updated.v
 FC:/Users/sreer/School/My_Learning/Verilog_Data_Types/Data_Types/Design_Styles_Code/procedures_updated.v
 !i122 3
 L0 4 40
-R11
+R13
 r1
 !s85 0
 31
@@ -546,6 +708,111 @@ R4
 !i113 1
 R5
 R6
+vripple_adder_behavioral
+R9
+!i10b 1
+!s100 G7U_bd6NTga2l^ZUV[Om;1
+IdBo7z3<b05PL`FkVBIcMF2
+R1
+R2
+w1765823847
+8C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Design_Styles_Code/ripple_adder_behavioral.v
+FC:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Design_Styles_Code/ripple_adder_behavioral.v
+L0 1
+R3
+r1
+!s85 0
+31
+R10
+!s107 C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Design_Styles_Code/ripple_adder_behavioral.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Design_Styles_Code/ripple_adder_behavioral.v|
+!i113 1
+R5
+R6
+vripple_adder_dataflow
+R9
+!i10b 1
+!s100 nHLYK:86Fzo^dZJ4hg>z90
+I[gDnk<aDEW8k9HT2X;DPW1
+R1
+R2
+w1765822371
+8C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Design_Styles_Code/ripple_adder_dataflow.v
+FC:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Design_Styles_Code/ripple_adder_dataflow.v
+L0 1
+R3
+r1
+!s85 0
+31
+R10
+!s107 C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Design_Styles_Code/ripple_adder_dataflow.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Design_Styles_Code/ripple_adder_dataflow.v|
+!i113 1
+R5
+R6
+vripple_adder_structural
+R9
+!i10b 1
+!s100 MZU8hYgI6Y<fN:3cJ<FCQ0
+IjfEL7g21<WH3NGnU9VDmi1
+R1
+R2
+R14
+8C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Design_Styles_Code/ripple_adder_structural.v
+FC:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Design_Styles_Code/ripple_adder_structural.v
+L0 1
+R3
+r1
+!s85 0
+31
+R10
+!s107 C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Design_Styles_Code/ripple_adder_structural.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Design_Styles_Code/ripple_adder_structural.v|
+!i113 1
+R5
+R6
+vripple_adder_tb
+R9
+!i10b 1
+!s100 ^;Y<SWGMUb08Q^<P29Q^L1
+I0jZbzK40P1;U]KNf63II40
+R1
+R2
+w1765823789
+8C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Design_Styles_Code/ripple_adder_tb.v
+FC:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Design_Styles_Code/ripple_adder_tb.v
+L0 1
+R3
+r1
+!s85 0
+31
+R10
+!s107 C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Design_Styles_Code/ripple_adder_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Design_Styles_Code/ripple_adder_tb.v|
+!i113 1
+R5
+R6
+vripple_carry_adder_tb
+R9
+!i10b 1
+!s100 ogG`Xz?0hFVJF5@4Y^c;<3
+I7oJY[9oCDgAF0JV[V1L`>0
+R1
+R2
+w1765823115
+8C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Design_Styles_Code/ripple_carry_adder_tb.v
+FC:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Design_Styles_Code/ripple_carry_adder_tb.v
+L0 1
+R3
+r1
+!s85 0
+31
+R10
+!s107 C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Design_Styles_Code/ripple_carry_adder_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Design_Styles_Code/ripple_carry_adder_tb.v|
+!i113 1
+R5
+R6
 vshift_operators
 R0
 !i10b 1
@@ -567,6 +834,48 @@ R4
 !i113 1
 R5
 R6
+vsome_logic
+R9
+!i10b 1
+!s100 [i:;AI6IN3_WNe7o?ZQhf1
+IjTzad>12CY8AUKNeeci<b2
+R1
+R2
+w1765830926
+8C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Logic_Design_Code/some_logic.v
+FC:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Logic_Design_Code/some_logic.v
+L0 1
+R3
+r1
+!s85 0
+31
+R10
+!s107 C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Logic_Design_Code/some_logic.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Logic_Design_Code/some_logic.v|
+!i113 1
+R5
+R6
+vsome_logic_tb
+R9
+!i10b 1
+!s100 6TzVYUlmzV=e>>e6Q_mzL3
+IN@Df<_Gjf__FE]<La]6`P2
+R1
+R2
+w1765831053
+8C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Logic_Design_Code/some_logic_tb.v
+FC:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Logic_Design_Code/some_logic_tb.v
+L0 1
+R3
+r1
+!s85 0
+31
+R10
+!s107 C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Logic_Design_Code/some_logic_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Logic_Design_Code/some_logic_tb.v|
+!i113 1
+R5
+R6
 vsum_product
 R7
 !i10b 1
@@ -585,6 +894,69 @@ r1
 R8
 !s107 C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Data_Types_Code/sum_product.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Data_Types_Code/sum_product.v|
+!i113 1
+R5
+R6
+vtri_state_buffer
+R9
+!i10b 1
+!s100 RAMe<MfM?Lfl]JkMWK2211
+IIG=@^:ehC9Y:U2QVV5]mG1
+R1
+R2
+w1765828103
+8C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Structural_Code/tri_state_buffer.v
+FC:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Structural_Code/tri_state_buffer.v
+L0 1
+R3
+r1
+!s85 0
+31
+R10
+!s107 C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Structural_Code/tri_state_buffer.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Structural_Code/tri_state_buffer.v|
+!i113 1
+R5
+R6
+vtristate_mux
+R9
+!i10b 1
+!s100 `1XG5F]=P[^zcZ^`;[glM2
+IFOWjM<8H9^4CY9d>JlWKA0
+R1
+R2
+w1765829016
+8C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Structural_Code/tristate_mux.v
+FC:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Structural_Code/tristate_mux.v
+L0 1
+R3
+r1
+!s85 0
+31
+R10
+!s107 C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Structural_Code/tristate_mux.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Structural_Code/tristate_mux.v|
+!i113 1
+R5
+R6
+vtristate_tb
+R9
+!i10b 1
+!s100 hHZ@8j`EkfDAN]o>I3Ggk3
+If@e`iZ8okS]e1fXDHRcGN2
+R1
+R2
+w1765828447
+8C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Structural_Code/tristate_tb.v
+FC:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Structural_Code/tristate_tb.v
+L0 1
+R3
+r1
+!s85 0
+31
+R10
+!s107 C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Structural_Code/tristate_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Structural_Code/tristate_tb.v|
 !i113 1
 R5
 R6
