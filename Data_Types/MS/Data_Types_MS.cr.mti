@@ -1,141 +1,57 @@
-C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Structural_Code/tri_state_buffer.v {1 {vlog -work work -stats=none C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Structural_Code/tri_state_buffer.v
+C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Logic_Design_Code/comparator_nbit_tb.v {1 {vlog -work work -stats=none C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Logic_Design_Code/comparator_nbit_tb.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module tri_state_buffer
+-- Compiling module comparator_nbit_tb
 
 Top level modules:
-	tri_state_buffer
+	comparator_nbit_tb
 
-} {} {}} C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Structural_Code/demux_tb.v {1 {vlog -work work -stats=none C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Structural_Code/demux_tb.v
+} {} {}} C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Logic_Design_Code/decoder_nbit.v {1 {vlog -work work -stats=none C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Logic_Design_Code/decoder_nbit.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module demux_tb
+-- Compiling module decoder_nbit
 
 Top level modules:
-	demux_tb
+	decoder_nbit
 
-} {} {}} C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Structural_Code/tristate_mux.v {1 {vlog -work work -stats=none C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Structural_Code/tristate_mux.v
+} {} {}} C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Logic_Design_Code/decoder_4to16.v {1 {vlog -work work -stats=none C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Logic_Design_Code/decoder_4to16.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module tristate_mux
+-- Compiling module decoder_4to16
 
 Top level modules:
-	tristate_mux
+	decoder_4to16
 
-} {} {}} C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Structural_Code/built_in_gates.v {1 {vlog -work work -stats=none C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Structural_Code/built_in_gates.v
+} {} {}} C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Logic_Design_Code/decoder_nbit_tb.v {1 {vlog -work work -stats=none C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Logic_Design_Code/decoder_nbit_tb.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module built_in_gates
+-- Compiling module decoder_nbit_tb
 
 Top level modules:
-	built_in_gates
+	decoder_nbit_tb
 
-} {} {}} C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Structural_Code/mux_1bit.v {1 {vlog -work work -stats=none C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Structural_Code/mux_1bit.v
+} {} {}} C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Logic_Design_Code/decoder_3to8.v {1 {vlog -work work -stats=none C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Logic_Design_Code/decoder_3to8.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module mux_1bit
+-- Compiling module decoder_3to8
 
 Top level modules:
-	mux_1bit
+	decoder_3to8
 
-} {} {}} C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Design_Styles_Code/ripple_carry_adder_tb.v {1 {vlog -work work -stats=none C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Design_Styles_Code/ripple_carry_adder_tb.v
+} {} {}} C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Logic_Design_Code/decoder_4to16_tb.v {1 {vlog -work work -stats=none C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Logic_Design_Code/decoder_4to16_tb.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module ripple_carry_adder_tb
+-- Compiling module decoder_4to16_tb
 
 Top level modules:
-	ripple_carry_adder_tb
+	decoder_4to16_tb
 
-} {} {}} C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Design_Styles_Code/ripple_adder_tb.v {1 {vlog -work work -stats=none C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Design_Styles_Code/ripple_adder_tb.v
+} {} {}} C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Logic_Design_Code/decoder_3to8_tb.v {1 {vlog -work work -stats=none C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Logic_Design_Code/decoder_3to8_tb.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module ripple_adder_tb
+-- Compiling module decoder_3to8_tb
 
 Top level modules:
-	ripple_adder_tb
+	decoder_3to8_tb
 
-} {} {}} C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Structural_Code/tristate_tb.v {1 {vlog -work work -stats=none C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Structural_Code/tristate_tb.v
+} {} {}} C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Logic_Design_Code/comparator_nbit.v {1 {vlog -work work -stats=none C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Logic_Design_Code/comparator_nbit.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module tristate_tb
+-- Compiling module comparator_nbit
 
 Top level modules:
-	tristate_tb
-
-} {} {}} C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Design_Styles_Code/full_adder_structural.v {1 {vlog -work work -stats=none C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Design_Styles_Code/full_adder_structural.v
-Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module full_adder_structural
-
-Top level modules:
-	full_adder_structural
-
-} {} {}} C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Structural_Code/comparator_1bit.v {1 {vlog -work work -stats=none C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Structural_Code/comparator_1bit.v
-Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module comparator_1bit
-
-Top level modules:
-	comparator_1bit
-
-} {} {}} C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Structural_Code/mux_tb.v {1 {vlog -work work -stats=none C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Structural_Code/mux_tb.v
-Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module mux_tb
-
-Top level modules:
-	mux_tb
-
-} {} {}} C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Design_Styles_Code/ripple_adder_structural.v {1 {vlog -work work -stats=none C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Design_Styles_Code/ripple_adder_structural.v
-Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module ripple_adder_structural
-
-Top level modules:
-	ripple_adder_structural
-
-} {} {}} C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Design_Styles_Code/full_adder_dataflow.v {1 {vlog -work work -stats=none C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Design_Styles_Code/full_adder_dataflow.v
-Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module full_adder_dataflow
-
-Top level modules:
-	full_adder_dataflow
-
-} {} {}} C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Design_Styles_Code/ripple_adder_dataflow.v {1 {vlog -work work -stats=none C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Design_Styles_Code/ripple_adder_dataflow.v
-Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module ripple_adder_dataflow
-
-Top level modules:
-	ripple_adder_dataflow
-
-} {} {}} C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Structural_Code/gates_tb.v {1 {vlog -work work -stats=none C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Structural_Code/gates_tb.v
-Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module gates_tb
-
-Top level modules:
-	gates_tb
-
-} {} {}} C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Structural_Code/demux_1bit.v {1 {vlog -work work -stats=none C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Structural_Code/demux_1bit.v
-Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module demux_1bit
-
-Top level modules:
-	demux_1bit
-
-} {} {}} C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Design_Styles_Code/ripple_adder_behavioral.v {1 {vlog -work work -stats=none C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Design_Styles_Code/ripple_adder_behavioral.v
-Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module ripple_adder_behavioral
-
-Top level modules:
-	ripple_adder_behavioral
-
-} {} {}} C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Logic_Design_Code/some_logic_tb.v {1 {vlog -work work -stats=none C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Logic_Design_Code/some_logic_tb.v
-Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module some_logic_tb
-
-Top level modules:
-	some_logic_tb
-
-} {} {}} C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Structural_Code/comparator_tb.v {1 {vlog -work work -stats=none C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Structural_Code/comparator_tb.v
-Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module comparator_tb
-
-Top level modules:
-	comparator_tb
-
-} {} {}} C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Design_Styles_Code/half_adder_structural.v {1 {vlog -work work -stats=none C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Design_Styles_Code/half_adder_structural.v
-Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module half_adder_structural
-
-Top level modules:
-	half_adder_structural
+	comparator_nbit
 
 } {} {}}
