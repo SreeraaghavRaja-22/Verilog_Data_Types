@@ -83,4 +83,20 @@
 - Can use multiple decoders to make a larger decoder
 - A 4to16 decoder can be built by using 2 3to8 decoders and an enable signal
 
+### Priority Encoder
+
+- Encoder Drawbacks: if more than one input is HIGH it can output a wrong value, and there is ambiguity when all outputs are 0
+- Some inputs are connected to signals more important than others
+- Inputs are coded from highest priority to lowest priority\
+
+### Bus Multiplexers and Demultiplexers
+
+- If you are designing a multiplexer/demultiplexer for a M x N-bit input bus, then the structural design can be hard
+- Procedural code gives you a simple and clear way to design this kind of circuit
+
+### Bus Demultiplexer
+
+- Reverse operation of a multiplexer
+- Can be easily implemented using the behavioral design style
+
 ## Sequential Logic

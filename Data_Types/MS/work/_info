@@ -219,6 +219,48 @@ Z13 !s108 1765835590.000000
 !i113 1
 R5
 R6
+vbus_4x_nbit
+Z14 !s110 1765860146
+!i10b 1
+!s100 @69P]l5n^PQIhOof?zLD<3
+IS_6KL<oL0d@JS`Y82lJE71
+R1
+R2
+w1765857498
+8C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Logic_Design_Code/bus_4x_nbit.v
+FC:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Logic_Design_Code/bus_4x_nbit.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z15 !s108 1765860146.000000
+!s107 C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Logic_Design_Code/bus_4x_nbit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Logic_Design_Code/bus_4x_nbit.v|
+!i113 1
+R5
+R6
+vbus_4x_nbit_tb
+R14
+!i10b 1
+!s100 0K1=S9KjkX3mVilb;6OPo0
+IhR50;D<kgUIMBgYVh1eKk2
+R1
+R2
+w1765858365
+8C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Logic_Design_Code/bus_4x_nbit_tb.v
+FC:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Logic_Design_Code/bus_4x_nbit_tb.v
+L0 2
+R3
+r1
+!s85 0
+31
+R15
+!s107 C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Logic_Design_Code/bus_4x_nbit_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Logic_Design_Code/bus_4x_nbit_tb.v|
+!i113 1
+R5
+R6
 vcomparator_1bit
 R8
 !i10b 1
@@ -241,7 +283,7 @@ R9
 R5
 R6
 vcomparator_nbit
-Z14 !s110 1765837960
+R14
 !i10b 1
 !s100 A6=Hl13=S:]m4<ZXJNi0_1
 I_[?j:g@oHhHhJNYZgYaz=2
@@ -255,7 +297,7 @@ R3
 r1
 !s85 0
 31
-Z15 !s108 1765837960.000000
+R15
 !s107 C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Logic_Design_Code/comparator_nbit.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Logic_Design_Code/comparator_nbit.v|
 !i113 1
@@ -346,7 +388,7 @@ R4
 R5
 R6
 vdecoder_3to8
-!s110 1765840790
+R14
 !i10b 1
 !s100 OlHXASb^?Uf8GXGMFcjTW2
 Id8cDY=lhD1PS9kE7SZ0IT0
@@ -360,14 +402,14 @@ R3
 r1
 !s85 0
 31
-!s108 1765840790.000000
+R15
 !s107 C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Logic_Design_Code/decoder_3to8.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Logic_Design_Code/decoder_3to8.v|
 !i113 1
 R5
 R6
 vdecoder_3to8_tb
-!s110 1765840712
+R14
 !i10b 1
 !s100 ]_jzf>Ko_deM@ZcG^TYi52
 IfN=BaVcZIEFGGfcg_C0@U3
@@ -381,14 +423,14 @@ R3
 r1
 !s85 0
 31
-!s108 1765840712.000000
+R15
 !s107 C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Logic_Design_Code/decoder_3to8_tb.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Logic_Design_Code/decoder_3to8_tb.v|
 !i113 1
 R5
 R6
 vdecoder_4to16
-Z16 !s110 1765843375
+R14
 !i10b 1
 !s100 ]6Xaf4:ORa8>22Eb13QWO1
 I_h7S@ab8iOcCP=6zJ2l^P3
@@ -402,14 +444,14 @@ R3
 r1
 !s85 0
 31
-Z17 !s108 1765843375.000000
+R15
 !s107 C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Logic_Design_Code/decoder_4to16.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Logic_Design_Code/decoder_4to16.v|
 !i113 1
 R5
 R6
 vdecoder_4to16_tb
-R16
+R14
 !i10b 1
 !s100 ND7S;866R=Q6C[KCH5H^^3
 IdhI]B_gcPX?R81e80X[mz1
@@ -423,14 +465,14 @@ R3
 r1
 !s85 0
 31
-R17
+R15
 !s107 C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Logic_Design_Code/decoder_4to16_tb.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Logic_Design_Code/decoder_4to16_tb.v|
 !i113 1
 R5
 R6
 vdecoder_nbit
-!s110 1765839334
+R14
 !i10b 1
 !s100 <TIWNHkjQKG<@>RSeVZeA1
 IAzK`R6@d_S;z2]IzX2kO;0
@@ -444,14 +486,14 @@ R3
 r1
 !s85 0
 31
-!s108 1765839334.000000
+R15
 !s107 C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Logic_Design_Code/decoder_nbit.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Logic_Design_Code/decoder_nbit.v|
 !i113 1
 R5
 R6
 vdecoder_nbit_tb
-!s110 1765839660
+R14
 !i10b 1
 !s100 @bQFelPcCEPe:_1JDoiaz3
 IY[UK>M374V:@[cz`T[H8h3
@@ -465,7 +507,7 @@ R3
 r1
 !s85 0
 31
-!s108 1765839660.000000
+R15
 !s107 C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Logic_Design_Code/decoder_nbit_tb.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Logic_Design_Code/decoder_nbit_tb.v|
 !i113 1
@@ -489,6 +531,48 @@ r1
 R9
 !s107 C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Structural_Code/demux_1bit.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Structural_Code/demux_1bit.v|
+!i113 1
+R5
+R6
+vdemux_nbit_x4
+!s110 1765860725
+!i10b 1
+!s100 bjh]hR;KeUULG[b=mF_6Z0
+Ih@B8`h^J[QmIFVO:?ic9@0
+R1
+R2
+w1765860652
+8C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Logic_Design_Code/demux_nbit_x4.v
+FC:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Logic_Design_Code/demux_nbit_x4.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1765860725.000000
+!s107 C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Logic_Design_Code/demux_nbit_x4.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Logic_Design_Code/demux_nbit_x4.v|
+!i113 1
+R5
+R6
+vdemux_nbit_x4_tb
+!s110 1765860994
+!i10b 1
+!s100 =:9G:CQl`hILIj67aXUnJ0
+IYUQIV[YfCP6PZWn;JMXaL2
+R1
+R2
+w1765860989
+8C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Logic_Design_Code/demux_nbit_x4_tb.v
+FC:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Logic_Design_Code/demux_nbit_x4_tb.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1765860994.000000
+!s107 C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Logic_Design_Code/demux_nbit_x4_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Logic_Design_Code/demux_nbit_x4_tb.v|
 !i113 1
 R5
 R6
@@ -555,6 +639,48 @@ R11
 !i113 1
 R5
 R6
+vencoder_8to3
+R14
+!i10b 1
+!s100 [^0kcmgE49?gWJWhd3?OG1
+I^1VBbKdbE03j3c^ii0WiB3
+R1
+R2
+w1765850026
+8C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Logic_Design_Code/encoder_8to3.v
+FC:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Logic_Design_Code/encoder_8to3.v
+L0 1
+R3
+r1
+!s85 0
+31
+R15
+!s107 C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Logic_Design_Code/encoder_8to3.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Logic_Design_Code/encoder_8to3.v|
+!i113 1
+R5
+R6
+vencoder_8to3_tb
+R14
+!i10b 1
+!s100 Qb5BbV8<K>G_E8RzI^>=S2
+I8:jjNC^i_ZFmT4d2421[Y0
+R1
+R2
+w1765850460
+8C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Logic_Design_Code/encoder_8to3_tb.v
+FC:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Logic_Design_Code/encoder_8to3_tb.v
+L0 1
+R3
+r1
+!s85 0
+31
+R15
+!s107 C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Logic_Design_Code/encoder_8to3_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Logic_Design_Code/encoder_8to3_tb.v|
+!i113 1
+R5
+R6
 vequality_operators
 R0
 !i10b 1
@@ -580,16 +706,16 @@ vfull_adder_behavioral
 !s110 1765773962
 !i10b 1
 !s100 H1`Ch7Tb>mAQB24WTHXWI1
-Z18 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Z16 !s11b Dg1SIo80bB@j0V0VzS_@n1
 IcZ]DM]c@_]G9_gXVkI1m:0
 R1
-Z19 dC:/Users/sreer/School/My_Learning/Verilog_Data_Types/Data_Types/MS
+Z17 dC:/Users/sreer/School/My_Learning/Verilog_Data_Types/Data_Types/MS
 w1765773957
 8C:/Users/sreer/School/My_Learning/Verilog_Data_Types/Data_Types/Design_Styles_Code/full_adder_behavioral.v
 FC:/Users/sreer/School/My_Learning/Verilog_Data_Types/Data_Types/Design_Styles_Code/full_adder_behavioral.v
 !i122 16
 L0 1 21
-Z20 OV;L;2020.1;71
+Z18 OV;L;2020.1;71
 r1
 !s85 0
 31
@@ -606,7 +732,7 @@ R12
 IA^jObF>:?6koJP9Tk1IME0
 R1
 R2
-Z21 w1765819307
+Z19 w1765819307
 8C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Design_Styles_Code/full_adder_dataflow.v
 FC:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Design_Styles_Code/full_adder_dataflow.v
 L0 1
@@ -627,7 +753,7 @@ R12
 IIi3<bl39h5PfXh:XOLo?S2
 R1
 R2
-R21
+R19
 8C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Design_Styles_Code/full_adder_structural.v
 FC:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Design_Styles_Code/full_adder_structural.v
 L0 1
@@ -645,16 +771,16 @@ vfull_adder_tb
 !s110 1765773863
 !i10b 1
 !s100 PYQzzM_Qj76ckSZj7`hB70
-R18
+R16
 IWILe_d8=aLfZDeS=0KY]=3
 R1
-R19
+R17
 w1765773860
 8C:/Users/sreer/School/My_Learning/Verilog_Data_Types/Data_Types/Design_Styles_Code/full_adder_tb.v
 FC:/Users/sreer/School/My_Learning/Verilog_Data_Types/Data_Types/Design_Styles_Code/full_adder_tb.v
 !i122 15
 L0 1 33
-R20
+R18
 r1
 !s85 0
 31
@@ -895,20 +1021,83 @@ R4
 !i113 1
 R5
 R6
+vpriority_encoder_4to2
+R14
+!i10b 1
+!s100 FF2B8[QY]Yn^YSOaB5BPU2
+Ih5zD=_[97?Ta:=YW]c<ag1
+R1
+R2
+w1765853807
+8C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Logic_Design_Code/priority_encoder_4to2.v
+FC:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Logic_Design_Code/priority_encoder_4to2.v
+L0 1
+R3
+r1
+!s85 0
+31
+R15
+!s107 C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Logic_Design_Code/priority_encoder_4to2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Logic_Design_Code/priority_encoder_4to2.v|
+!i113 1
+R5
+R6
+vpriority_encoder_4to2_case
+R14
+!i10b 1
+!s100 dPa@daJOINUlTNF4JUL=k1
+I09Y4WmHkCfCA[BOOUNj3A0
+R1
+R2
+w1765856041
+8C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Logic_Design_Code/priority_encoder_4to2_case.v
+FC:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Logic_Design_Code/priority_encoder_4to2_case.v
+L0 1
+R3
+r1
+!s85 0
+31
+R15
+!s107 C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Logic_Design_Code/priority_encoder_4to2_case.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Logic_Design_Code/priority_encoder_4to2_case.v|
+!i113 1
+R5
+R6
+vpriority_encoder_4to2_tb
+R14
+!i10b 1
+!s100 UOY6`j^8jOU2iY?eUzHMj0
+IOagZ;F^`Xh7DoCzioF<N83
+R1
+R2
+w1765856107
+8C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Logic_Design_Code/priority_encoder_4to2_tb.v
+FC:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Logic_Design_Code/priority_encoder_4to2_tb.v
+L0 1
+R3
+r1
+!s85 0
+31
+R15
+!s107 C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Logic_Design_Code/priority_encoder_4to2_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Logic_Design_Code/priority_encoder_4to2_tb.v|
+!i113 1
+R5
+R6
 vprocedures
 !s110 1765771887
 !i10b 1
 !s100 23_QjYKoT]LUcJ1f92bMN1
-R18
+R16
 I^Qb;K@Xk5Jg`_PcAMR8ZD1
 R1
-R19
+R17
 w1765769527
 8C:/Users/sreer/School/My_Learning/Verilog_Data_Types/Data_Types/Design_Styles_Code/procedures_updated.v
 FC:/Users/sreer/School/My_Learning/Verilog_Data_Types/Data_Types/Design_Styles_Code/procedures_updated.v
 !i122 3
 L0 4 40
-R20
+R18
 r1
 !s85 0
 31
@@ -1030,7 +1219,7 @@ R12
 IjfEL7g21<WH3NGnU9VDmi1
 R1
 R2
-R21
+R19
 8C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Design_Styles_Code/ripple_adder_structural.v
 FC:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Design_Styles_Code/ripple_adder_structural.v
 L0 1

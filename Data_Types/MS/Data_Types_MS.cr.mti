@@ -1,9 +1,16 @@
-C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Logic_Design_Code/comparator_nbit_tb.v {1 {vlog -work work -stats=none C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Logic_Design_Code/comparator_nbit_tb.v
+C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Logic_Design_Code/bus_4x_nbit.v {1 {vlog -work work -stats=none C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Logic_Design_Code/bus_4x_nbit.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module comparator_nbit_tb
+-- Compiling module bus_4x_nbit
 
 Top level modules:
-	comparator_nbit_tb
+	bus_4x_nbit
+
+} {} {}} C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Logic_Design_Code/priority_encoder_4to2.v {1 {vlog -work work -stats=none C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Logic_Design_Code/priority_encoder_4to2.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module priority_encoder_4to2
+
+Top level modules:
+	priority_encoder_4to2
 
 } {} {}} C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Logic_Design_Code/decoder_nbit.v {1 {vlog -work work -stats=none C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Logic_Design_Code/decoder_nbit.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
@@ -19,19 +26,26 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 Top level modules:
 	decoder_4to16
 
-} {} {}} C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Logic_Design_Code/decoder_nbit_tb.v {1 {vlog -work work -stats=none C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Logic_Design_Code/decoder_nbit_tb.v
+} {} {}} C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Logic_Design_Code/encoder_8to3.v {1 {vlog -work work -stats=none C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Logic_Design_Code/encoder_8to3.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module decoder_nbit_tb
+-- Compiling module encoder_8to3
 
 Top level modules:
-	decoder_nbit_tb
+	encoder_8to3
 
-} {} {}} C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Logic_Design_Code/decoder_3to8.v {1 {vlog -work work -stats=none C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Logic_Design_Code/decoder_3to8.v
+} {} {}} C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Logic_Design_Code/bus_4x_nbit_tb.v {1 {vlog -work work -stats=none C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Logic_Design_Code/bus_4x_nbit_tb.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module decoder_3to8
+-- Compiling module bus_4x_nbit_tb
 
 Top level modules:
-	decoder_3to8
+	bus_4x_nbit_tb
+
+} {} {}} C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Logic_Design_Code/priority_encoder_4to2_tb.v {1 {vlog -work work -stats=none C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Logic_Design_Code/priority_encoder_4to2_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module priority_encoder_4to2_tb
+
+Top level modules:
+	priority_encoder_4to2_tb
 
 } {} {}} C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Logic_Design_Code/decoder_4to16_tb.v {1 {vlog -work work -stats=none C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Logic_Design_Code/decoder_4to16_tb.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
@@ -40,12 +54,33 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 Top level modules:
 	decoder_4to16_tb
 
-} {} {}} C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Logic_Design_Code/decoder_3to8_tb.v {1 {vlog -work work -stats=none C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Logic_Design_Code/decoder_3to8_tb.v
+} {} {}} C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Logic_Design_Code/comparator_nbit_tb.v {1 {vlog -work work -stats=none C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Logic_Design_Code/comparator_nbit_tb.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module decoder_3to8_tb
+-- Compiling module comparator_nbit_tb
 
 Top level modules:
-	decoder_3to8_tb
+	comparator_nbit_tb
+
+} {} {}} C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Logic_Design_Code/demux_nbit_x4.v {1 {vlog -work work -stats=none C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Logic_Design_Code/demux_nbit_x4.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module demux_nbit_x4
+
+Top level modules:
+	demux_nbit_x4
+
+} {} {}} C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Logic_Design_Code/encoder_8to3_tb.v {1 {vlog -work work -stats=none C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Logic_Design_Code/encoder_8to3_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module encoder_8to3_tb
+
+Top level modules:
+	encoder_8to3_tb
+
+} {} {}} C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Logic_Design_Code/decoder_3to8.v {1 {vlog -work work -stats=none C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Logic_Design_Code/decoder_3to8.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module decoder_3to8
+
+Top level modules:
+	decoder_3to8
 
 } {} {}} C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Logic_Design_Code/comparator_nbit.v {1 {vlog -work work -stats=none C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Logic_Design_Code/comparator_nbit.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
@@ -53,5 +88,26 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 
 Top level modules:
 	comparator_nbit
+
+} {} {}} C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Logic_Design_Code/priority_encoder_4to2_case.v {1 {vlog -work work -stats=none C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Logic_Design_Code/priority_encoder_4to2_case.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module priority_encoder_4to2_case
+
+Top level modules:
+	priority_encoder_4to2_case
+
+} {} {}} C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Logic_Design_Code/decoder_nbit_tb.v {1 {vlog -work work -stats=none C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Logic_Design_Code/decoder_nbit_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module decoder_nbit_tb
+
+Top level modules:
+	decoder_nbit_tb
+
+} {} {}} C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Logic_Design_Code/decoder_3to8_tb.v {1 {vlog -work work -stats=none C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Logic_Design_Code/decoder_3to8_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module decoder_3to8_tb
+
+Top level modules:
+	decoder_3to8_tb
 
 } {} {}}
