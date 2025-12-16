@@ -118,3 +118,66 @@
   - status flags
   
 ## Sequential Logic
+
+- The outputs of a circuit depend on the previous values of the input and current values
+- Combinational Logic with memory
+- The circuit operation is controlled by a **clock signal**
+- The value stored in the memory elemnts is updated after an edge of the clock
+- Always use the **"non-blocking" verilog operator (<=)** when designing sequential logic
+  - Inputs all get sampled at the same time (on rising clock edge)
+  - Blocking assignments (=) will update in sequential order in always block
+
+### Clock Signal
+
+- A signal that osciallates between high and low values (logic 0 and 1) with a known period
+- It is produced by and electronic oscillator (resonant circuit + amplifier, analog circuit)
+- Main paramters of a clock signal:
+  - period(s) (time between two positive edges)
+  - frequency = 1/period (Hz)
+  - duty cycle = pulse_time / period (%)
+  - Phase (between clocks)
+  
+### Clock Types
+
+- Data can be memorized in the synchronous logic elements by using the **clock edge** or the **clock level**
+- Input data is transferred to the circuit's output when the clock pulse has a specific value or a specific transition
+- Sequential Digital Logic types (clock related):
+  - **Edge Triggered Logic (flip-flops)**
+    - Positive Edge (@posedge - Verilog)
+    - Negative Edge (@negedge - Verilog)
+  - **Level-Triggered Logic (latches)**
+    - Active-High (enable == 1'b1)
+    - Active-Low (enable == 1'b0)
+
+### Level-Triggered Logic (Latches)
+
+- A latch captures data while the Enable signal is asserted, thus it forwards the input value to the output
+- Enable = 1 means Latch is **OPEN** (for positive logic enable)
+- If data in (D) changes while Enable = 1 then all changes will propagate to data_out (Q)
+  - This is usually called "transparent"
+    - copies input to output
+
+### Edge-Triggered Logic (D Flip-Flips)
+
+- A flip flop caputres the input data when a positive or negative **clock edge** occurs and forwards it to the output
+- All the data input changes before and after the clock transition are ignored (could lead to metastability)
+- Very popular for counters, frequency dividers, shift registers, input synchronization and control and status registers
+- Reset can either be **synchronous** or **asynchronous** (related to clock)
+- Why always active-low reset signals?
+  - It's easier to avoid intermediate signals from improper supply voltage if we pulldown
+
+### Shift Register
+
+- Type of sequential circuit that can be used for transferring and storing data
+- The basic building block is the D Flip Flop (for each bit)
+- They can be connected in a serial manner (daisy-chain) or in a parallel manner depending on the desired functionality
+- There are SET/RESET mechanisms used to load data in them before shifting it
+- All FFs are connected to the same **clock** signal
+- Data can be loaded or shifted to the left or the right of the register
+- They are used whereever there is need for storing and manipulating data
+- Classifications: Based on **data movement** inside these circuits
+  - **PIPO (Parallel-In Parallel-Out):** data is loaded in all FFs and transferred to output in the same clock cycle
+  - **SISO (Serial-In Serial-Out):** data is loaded 1bit / clock_cycle from one side of the register and shifted to the other side of the circuit
+  - **PISO (Parallel-In Serial-Out):** data is loaded in parallel and then is shifted to the left or right output (1 bit)
+  - **SIPO (Serial-In Parallel-Out):** data is loaded on one side of the register and then is shifted to the other side, the output has all bits in parallel
+  
