@@ -99,4 +99,22 @@
 - Reverse operation of a multiplexer
 - Can be easily implemented using the behavioral design style
 
+### Hex to Seven Segment Decoder
+
+- Each segment is an LED
+- 2 types of seven-segment display
+  - **Common Anode:** VCC is common and there is a different pin for ground (active-low)
+  - **Common Cathode:** ground is common and there is a different pin for VCC (active-high)
+
+### Arithmetic Logic Unit (ALU)
+
+- Is a combinational digital circuit that performs **arithmetic** and **bitwise** operations on integer binary numbers
+- Fundamental building block of CPUs
+- ALU Inputs:
+  - Operands (A and B)
+  - Operation to be performed between A and B (opcode)
+- ALU Outputs:
+  - The operation result (Y)
+  - status flags
+  
 ## Sequential Logic

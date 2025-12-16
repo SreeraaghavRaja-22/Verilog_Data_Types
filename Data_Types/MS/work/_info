@@ -177,6 +177,48 @@ R9
 !i113 1
 R5
 R6
+valu
+!s110 1765912969
+!i10b 1
+!s100 2PjdEGX=@m8Xhd_zoWCYO3
+IHBj;PnOe37hJaA`YK79411
+R1
+R2
+w1765912967
+8C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Logic_Design_Code/alu.v
+FC:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Logic_Design_Code/alu.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1765912969.000000
+!s107 C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Logic_Design_Code/alu.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Logic_Design_Code/alu.v|
+!i113 1
+R5
+R6
+valu_tb
+!s110 1765913370
+!i10b 1
+!s100 ^8@MPLGb9KmGYEI9OIo2e1
+Ia0cajET:2?4Z<KCD1IQ092
+R1
+R2
+w1765913368
+8C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Logic_Design_Code/alu_tb.v
+FC:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Logic_Design_Code/alu_tb.v
+L0 2
+R3
+r1
+!s85 0
+31
+!s108 1765913370.000000
+!s107 C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Logic_Design_Code/alu_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Logic_Design_Code/alu_tb.v|
+!i113 1
+R5
+R6
 vbitwise_operators
 Z10 !s110 1765753946
 !i10b 1
@@ -871,6 +913,48 @@ r1
 R4
 !s107 C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Design_Styles_Code/half_adder_tb.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Design_Styles_Code/half_adder_tb.v|
+!i113 1
+R5
+R6
+vhex_7seg_decoder
+!s110 1765912732
+!i10b 1
+!s100 1j[gC8EnhJ7?CQX12V;ko1
+IZ5DQfPnMIVO?2bA@KfTJ00
+R1
+R2
+w1765908144
+8C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Logic_Design_Code/hex_7seg_decoder.v
+FC:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Logic_Design_Code/hex_7seg_decoder.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1765912732.000000
+!s107 C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Logic_Design_Code/hex_7seg_decoder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Logic_Design_Code/hex_7seg_decoder.v|
+!i113 1
+R5
+R6
+vhex_7seg_decoder_tb
+!s110 1765907885
+!i10b 1
+!s100 KNnz?_Oj8O[l14R63_<[W1
+IMX`bMfNA=]oPa_CkH3G5D3
+R1
+R2
+w1765907850
+8C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Logic_Design_Code/hex_7seg_decoder_tb.v
+FC:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Logic_Design_Code/hex_7seg_decoder_tb.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1765907885.000000
+!s107 C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Logic_Design_Code/hex_7seg_decoder_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Logic_Design_Code/hex_7seg_decoder_tb.v|
 !i113 1
 R5
 R6
