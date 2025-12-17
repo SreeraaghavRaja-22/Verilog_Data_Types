@@ -1,57 +1,15 @@
-C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Sequential_Design_Code/clkgen.v {1 {vlog -work work -stats=none C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Sequential_Design_Code/clkgen.v
+C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Sequential_Design_Code/lfsr_tb.v {1 {vlog -work work -stats=none C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Sequential_Design_Code/lfsr_tb.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module clkgen
+-- Compiling module lfsr_tb
 
 Top level modules:
-	clkgen
+	lfsr_tb
 
-} {} {}} C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Sequential_Design_Code/d_latch_tb.v {1 {vlog -work work -stats=none C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Sequential_Design_Code/d_latch_tb.v
+} {} {}} C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Sequential_Design_Code/lfsr_16.v {1 {vlog -work work -stats=none C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Sequential_Design_Code/lfsr_16.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module d_latch_tb
+-- Compiling module lfsr_16
 
 Top level modules:
-	d_latch_tb
-
-} {} {}} C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Sequential_Design_Code/d_ff_sync_rstn.v {1 {vlog -work work -stats=none C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Sequential_Design_Code/d_ff_sync_rstn.v
-Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module d_ff_sync_rstn
-
-Top level modules:
-	d_ff_sync_rstn
-
-} {} {}} C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Sequential_Design_Code/d_latch_rstn.v {1 {vlog -work work -stats=none C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Sequential_Design_Code/d_latch_rstn.v
-Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module d_latch_rstn
-
-Top level modules:
-	d_latch_rstn
-
-} {} {}} C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Sequential_Design_Code/d_ff_async_rstn.v {1 {vlog -work work -stats=none C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Sequential_Design_Code/d_ff_async_rstn.v
-Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module d_ff_async_rstn
-
-Top level modules:
-	d_ff_async_rstn
-
-} {} {}} C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Sequential_Design_Code/d_ff_sync_rstn_tb.v {1 {vlog -work work -stats=none C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Sequential_Design_Code/d_ff_sync_rstn_tb.v
-Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module d_ff_sync_rstn_tb
-
-Top level modules:
-	d_ff_sync_rstn_tb
-
-} {} {}} C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Sequential_Design_Code/d_latch_rstn_tb.v {1 {vlog -work work -stats=none C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Sequential_Design_Code/d_latch_rstn_tb.v
-Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module d_latch_rstn_tb
-
-Top level modules:
-	d_latch_rstn_tb
-
-} {} {}} C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Sequential_Design_Code/d_latch.v {1 {vlog -work work -stats=none C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Sequential_Design_Code/d_latch.v
-Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module d_latch
-
-Top level modules:
-	d_latch
+	lfsr_16
 
 } {} {}}

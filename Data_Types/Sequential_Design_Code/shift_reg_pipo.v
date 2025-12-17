@@ -14,7 +14,7 @@ module shift_reg_pipo
         if(!reset_n) begin 
             q <= 4'b0;
         end else begin 
-            q[3:0] <= d[3:0];
+            q[BUS_WIDTH-1:0] <= d[BUS_WIDTH-1:0];
         end
     end
 endmodule 

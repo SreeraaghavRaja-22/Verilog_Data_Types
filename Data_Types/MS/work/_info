@@ -304,7 +304,7 @@ R15
 R5
 R6
 vclkgen
-Z16 !s110 1765920656
+Z16 !s110 1765938513
 !i10b 1
 !s100 b39F?8:6^9YDZR9>3?5S80
 I6WoRbzJEe_HYj?45?8oH^3
@@ -318,7 +318,7 @@ R3
 r1
 !s85 0
 31
-Z17 !s108 1765920656.000000
+Z17 !s108 1765938513.000000
 !s107 C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Sequential_Design_Code/clkgen.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Sequential_Design_Code/clkgen.v|
 !i113 1
@@ -1147,6 +1147,48 @@ r1
 !i113 1
 R5
 R6
+vlfsr_16
+Z22 !s110 1765941897
+!i10b 1
+!s100 :F0cMaRni@B:I^WzT_NlO2
+IlJ^BIbRSK]h:^@a]zLOhe3
+R1
+R2
+w1765938511
+8C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Sequential_Design_Code/lfsr_16.v
+FC:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Sequential_Design_Code/lfsr_16.v
+L0 2
+R3
+r1
+!s85 0
+31
+Z23 !s108 1765941897.000000
+!s107 C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Sequential_Design_Code/lfsr_16.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Sequential_Design_Code/lfsr_16.v|
+!i113 1
+R5
+R6
+vlfsr_tb
+R22
+!i10b 1
+!s100 <jGR44iTc^JS4g]IJ18i=1
+IDfR_PiGURnP]:jT`m[F^n3
+R1
+R2
+w1765941719
+8C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Sequential_Design_Code/lfsr_tb.v
+FC:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Sequential_Design_Code/lfsr_tb.v
+L0 2
+R3
+r1
+!s85 0
+31
+R23
+!s107 C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Sequential_Design_Code/lfsr_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Sequential_Design_Code/lfsr_tb.v|
+!i113 1
+R5
+R6
 vliteral_values
 R10
 !i10b 1
@@ -1548,6 +1590,48 @@ R13
 !i113 1
 R5
 R6
+vshift_left_right_reg
+R16
+!i10b 1
+!s100 ;0_K[D7n=`9YaTdc8_2SB2
+I5F;GZom^Z`7:Z3=ca]`P12
+R1
+R2
+w1765936497
+8C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Sequential_Design_Code/shift_left_right_reg.v
+FC:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Sequential_Design_Code/shift_left_right_reg.v
+L0 1
+R3
+r1
+!s85 0
+31
+R17
+!s107 C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Sequential_Design_Code/shift_left_right_reg.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Sequential_Design_Code/shift_left_right_reg.v|
+!i113 1
+R5
+R6
+vshift_left_right_reg_tb
+R16
+!i10b 1
+!s100 CFmBac8I?YnG^Idi>iaFg2
+IQ1b6h6MaHKXe_hjmKo58n0
+R1
+R2
+w1765936974
+8C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Sequential_Design_Code/shift_left_right_reg_tb.v
+FC:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Sequential_Design_Code/shift_left_right_reg_tb.v
+L0 1
+R3
+r1
+!s85 0
+31
+R17
+!s107 C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Sequential_Design_Code/shift_left_right_reg_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Sequential_Design_Code/shift_left_right_reg_tb.v|
+!i113 1
+R5
+R6
 vshift_operators
 R0
 !i10b 1
@@ -1566,6 +1650,174 @@ r1
 R4
 !s107 C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Operators_Code/shift_operators.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Operators_Code/shift_operators.v|
+!i113 1
+R5
+R6
+vshift_reg_pipo
+R16
+!i10b 1
+!s100 :XiLf=4^2_F^3YkbNKdmP0
+IlH53GjOB5Y5kUWgT1I=N@0
+R1
+R2
+w1765929198
+8C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Sequential_Design_Code/shift_reg_pipo.v
+FC:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Sequential_Design_Code/shift_reg_pipo.v
+L0 1
+R3
+r1
+!s85 0
+31
+R17
+!s107 C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Sequential_Design_Code/shift_reg_pipo.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Sequential_Design_Code/shift_reg_pipo.v|
+!i113 1
+R5
+R6
+vshift_reg_pipo_tb
+R16
+!i10b 1
+!s100 z]cACY:hM3FDA7JL^I0JZ0
+IC^KjMNS35g<h_Y43zOolZ0
+R1
+R2
+w1765931009
+8C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Sequential_Design_Code/shift_reg_pipo_tb.v
+FC:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Sequential_Design_Code/shift_reg_pipo_tb.v
+L0 3
+R3
+r1
+!s85 0
+31
+R17
+!s107 C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Sequential_Design_Code/shift_reg_pipo_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Sequential_Design_Code/shift_reg_pipo_tb.v|
+!i113 1
+R5
+R6
+vshift_reg_piso
+R16
+!i10b 1
+!s100 c:06inH7;kWV@9O]8[9<23
+I6o6A_7c@WVKIafkP0:W8f3
+R1
+R2
+w1765936052
+8C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Sequential_Design_Code/shift_reg_piso.v
+FC:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Sequential_Design_Code/shift_reg_piso.v
+L0 2
+R3
+r1
+!s85 0
+31
+R17
+!s107 C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Sequential_Design_Code/shift_reg_piso.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Sequential_Design_Code/shift_reg_piso.v|
+!i113 1
+R5
+R6
+vshift_reg_piso_tb
+R16
+!i10b 1
+!s100 :^oKiag=SJ6_@c5Lim@;I3
+IURGzkGW83z8VJZ22K3igh1
+R1
+R2
+w1765936001
+8C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Sequential_Design_Code/shift_reg_piso_tb.v
+FC:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Sequential_Design_Code/shift_reg_piso_tb.v
+L0 1
+R3
+r1
+!s85 0
+31
+R17
+!s107 C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Sequential_Design_Code/shift_reg_piso_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Sequential_Design_Code/shift_reg_piso_tb.v|
+!i113 1
+R5
+R6
+vshift_reg_sipo
+R16
+!i10b 1
+!s100 3NoD9@aCK`OG[LmZWeCh83
+I:?im^n>1G61;Di4N:lj9J3
+R1
+R2
+w1765930913
+8C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Sequential_Design_Code/shift_reg_sipo.v
+FC:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Sequential_Design_Code/shift_reg_sipo.v
+L0 1
+R3
+r1
+!s85 0
+31
+R17
+!s107 C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Sequential_Design_Code/shift_reg_sipo.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Sequential_Design_Code/shift_reg_sipo.v|
+!i113 1
+R5
+R6
+vshift_reg_sipo_tb
+R16
+!i10b 1
+!s100 PJ`QcNUB9=QVTAWUoKoVU2
+I0kjWG1;XUHhf>HG03Z:Oc1
+R1
+R2
+w1765931687
+8C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Sequential_Design_Code/shift_reg_sipo_tb.v
+FC:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Sequential_Design_Code/shift_reg_sipo_tb.v
+L0 1
+R3
+r1
+!s85 0
+31
+R17
+!s107 C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Sequential_Design_Code/shift_reg_sipo_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Sequential_Design_Code/shift_reg_sipo_tb.v|
+!i113 1
+R5
+R6
+vshift_reg_siso
+R16
+!i10b 1
+!s100 `D>B7e6ONKQEToOPfO@5e3
+I84kjIcKHFQmPn5aRk:=J_3
+R1
+R2
+w1765932054
+8C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Sequential_Design_Code/shift_reg_siso.v
+FC:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Sequential_Design_Code/shift_reg_siso.v
+L0 1
+R3
+r1
+!s85 0
+31
+R17
+!s107 C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Sequential_Design_Code/shift_reg_siso.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Sequential_Design_Code/shift_reg_siso.v|
+!i113 1
+R5
+R6
+vshift_reg_siso_tb
+R16
+!i10b 1
+!s100 2P6`eUNNj_Q2[=LCSdK4D2
+I=HI7BUaZB;SS[2Bg:12Ll3
+R1
+R2
+w1765934782
+8C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Sequential_Design_Code/shift_reg_siso_tb.v
+FC:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Sequential_Design_Code/shift_reg_siso_tb.v
+L0 3
+R3
+r1
+!s85 0
+31
+R17
+!s107 C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Sequential_Design_Code/shift_reg_siso_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Sequential_Design_Code/shift_reg_siso_tb.v|
 !i113 1
 R5
 R6

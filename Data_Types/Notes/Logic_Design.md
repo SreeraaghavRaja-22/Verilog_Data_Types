@@ -181,3 +181,13 @@
   - **PISO (Parallel-In Serial-Out):** data is loaded in parallel and then is shifted to the left or right output (1 bit)
   - **SIPO (Serial-In Parallel-Out):** data is loaded on one side of the register and then is shifted to the other side, the output has all bits in parallel
   
+### Linear Feedback Shift Register
+
+- LFSR
+- Based on shifting and XOR operations
+- PRNG = Pseudo Random Number Generator
+- Based on primitive polynomial that is initialzed with a starting value (**seed**)
+- When enabled its value is updated at each clock cycle
+- The bits inside the LFSR that influence the **feedback loop** are called **taps**
+- A maximal-length n-bit LFSR produces the maximum number of binary patterns (2^n - 1) before it repeats them
+- Are used in cryptogrpahy, computer simulations, test pattern generators, electronic games
