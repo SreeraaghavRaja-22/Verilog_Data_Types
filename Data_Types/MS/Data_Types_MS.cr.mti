@@ -26,6 +26,13 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	counter_nbit
 
+} {} {}} C:/Users/sreer/School/My_Learning/Verilog_Data_Types/Data_Types/Sequential_Design_Code/counter_modulo_n_tb.v {1 {vlog -work work -stats=none C:/Users/sreer/School/My_Learning/Verilog_Data_Types/Data_Types/Sequential_Design_Code/counter_modulo_n_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module counter_modulo_n_tb
+
+Top level modules:
+	counter_modulo_n_tb
+
 } {} {}} C:/Users/sreer/School/My_Learning/Verilog_Data_Types/Data_Types/Sequential_Design_Code/counter_nbit_tb.v {1 {vlog -work work -stats=none C:/Users/sreer/School/My_Learning/Verilog_Data_Types/Data_Types/Sequential_Design_Code/counter_nbit_tb.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module counter_nbit_tb
