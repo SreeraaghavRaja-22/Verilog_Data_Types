@@ -200,3 +200,15 @@
 - They can increment or decrement (up/down counter)
 - They can start at 0 or from any custom value
 - The output can be binary code, gray code, or a modulo-N code
+
+### Frequency Dividers
+
+- A frequency divider (clock divider / scaler / prescaler) is used to divide an input frequency with a certain ratio
+- Most of the the time these are **analog circuits** (VCO, PLL)
+- For **integer N** ratios digital dividers may be used (**counters**)
+- It is a circuit of flip-flops for additional logic
+- Fout = Fin / N, N = prescaler
+- N = log2(Fin/Fout)
+- **Circuit Advantages:**
+  - it is frequncy-coherent and phase-coherent with the clock source over environmental variations (temperature, etc.)
+  - A N-bit counter outputs all the divided frequencies between Fin/2 and Fin/2^N

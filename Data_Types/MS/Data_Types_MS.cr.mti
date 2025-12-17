@@ -1,9 +1,30 @@
-C:/Users/sreer/School/My_Learning/Verilog_Data_Types/Data_Types/Sequential_Design_Code/counter_up_down_load_nbit.v {1 {vlog -work work -stats=none C:/Users/sreer/School/My_Learning/Verilog_Data_Types/Data_Types/Sequential_Design_Code/counter_up_down_load_nbit.v
+C:/Users/sreer/School/My_Learning/Verilog_Data_Types/Data_Types/Sequential_Design_Code/clock_div3_tb.v {1 {vlog -work work -stats=none C:/Users/sreer/School/My_Learning/Verilog_Data_Types/Data_Types/Sequential_Design_Code/clock_div3_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module clock_div3_tb
+
+Top level modules:
+	clock_div3_tb
+
+} {} {}} C:/Users/sreer/School/My_Learning/Verilog_Data_Types/Data_Types/Sequential_Design_Code/clock_div_nbit.v {1 {vlog -work work -stats=none C:/Users/sreer/School/My_Learning/Verilog_Data_Types/Data_Types/Sequential_Design_Code/clock_div_nbit.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module clock_div_nbit
+
+Top level modules:
+	clock_div_nbit
+
+} {} {}} C:/Users/sreer/School/My_Learning/Verilog_Data_Types/Data_Types/Sequential_Design_Code/counter_up_down_load_nbit.v {1 {vlog -work work -stats=none C:/Users/sreer/School/My_Learning/Verilog_Data_Types/Data_Types/Sequential_Design_Code/counter_up_down_load_nbit.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module counter_up_down_load_nbit
 
 Top level modules:
 	counter_up_down_load_nbit
+
+} {} {}} C:/Users/sreer/School/My_Learning/Verilog_Data_Types/Data_Types/Sequential_Design_Code/clock_div_nbit_tb.v {1 {vlog -work work -stats=none C:/Users/sreer/School/My_Learning/Verilog_Data_Types/Data_Types/Sequential_Design_Code/clock_div_nbit_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module clock_div_nbit_tb
+
+Top level modules:
+	clock_div_nbit_tb
 
 } {} {}} C:/Users/sreer/School/My_Learning/Verilog_Data_Types/Data_Types/Sequential_Design_Code/counter_up_down_load_nbit_tb.v {1 {vlog -work work -stats=none C:/Users/sreer/School/My_Learning/Verilog_Data_Types/Data_Types/Sequential_Design_Code/counter_up_down_load_nbit_tb.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
@@ -12,13 +33,6 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	counter_up_down_load_nbit_tb
 
-} {} {}} C:/Users/sreer/School/My_Learning/Verilog_Data_Types/Data_Types/Sequential_Design_Code/counter_modulo_n.v {1 {vlog -work work -stats=none C:/Users/sreer/School/My_Learning/Verilog_Data_Types/Data_Types/Sequential_Design_Code/counter_modulo_n.v
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module counter_modulo_n
-
-Top level modules:
-	counter_modulo_n
-
 } {} {}} C:/Users/sreer/School/My_Learning/Verilog_Data_Types/Data_Types/Sequential_Design_Code/counter_nbit.v {1 {vlog -work work -stats=none C:/Users/sreer/School/My_Learning/Verilog_Data_Types/Data_Types/Sequential_Design_Code/counter_nbit.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module counter_nbit
@@ -26,12 +40,12 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	counter_nbit
 
-} {} {}} C:/Users/sreer/School/My_Learning/Verilog_Data_Types/Data_Types/Sequential_Design_Code/counter_modulo_n_tb.v {1 {vlog -work work -stats=none C:/Users/sreer/School/My_Learning/Verilog_Data_Types/Data_Types/Sequential_Design_Code/counter_modulo_n_tb.v
+} {} {}} C:/Users/sreer/School/My_Learning/Verilog_Data_Types/Data_Types/Sequential_Design_Code/counter_modulo_n.v {1 {vlog -work work -stats=none C:/Users/sreer/School/My_Learning/Verilog_Data_Types/Data_Types/Sequential_Design_Code/counter_modulo_n.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module counter_modulo_n_tb
+-- Compiling module counter_modulo_n
 
 Top level modules:
-	counter_modulo_n_tb
+	counter_modulo_n
 
 } {} {}} C:/Users/sreer/School/My_Learning/Verilog_Data_Types/Data_Types/Sequential_Design_Code/counter_nbit_tb.v {1 {vlog -work work -stats=none C:/Users/sreer/School/My_Learning/Verilog_Data_Types/Data_Types/Sequential_Design_Code/counter_nbit_tb.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
@@ -39,5 +53,12 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 
 Top level modules:
 	counter_nbit_tb
+
+} {} {}} C:/Users/sreer/School/My_Learning/Verilog_Data_Types/Data_Types/Sequential_Design_Code/counter_modulo_n_tb.v {1 {vlog -work work -stats=none C:/Users/sreer/School/My_Learning/Verilog_Data_Types/Data_Types/Sequential_Design_Code/counter_modulo_n_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module counter_modulo_n_tb
+
+Top level modules:
+	counter_modulo_n_tb
 
 } {} {}}
