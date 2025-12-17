@@ -4,7 +4,8 @@ module counter_up_down_load_nbit
     input clk, 
     input reset_n, 
     input [N-1:0] counter_in, 
-    input up_down, 
+    input up_down,
+    input load_en, 
     output reg [N-1:0] counter_out
 );
 
