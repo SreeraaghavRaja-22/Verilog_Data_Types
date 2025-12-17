@@ -450,6 +450,52 @@ R4
 !i113 1
 R5
 R6
+vcounter_nbit
+!s110 1765950059
+!i10b 1
+!s100 ^inS0EW;VVWlGR=LahHF83
+Z18 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I;9jSC0Ah;j2TbYmK_<;P70
+R1
+Z19 dC:/Users/sreer/School/My_Learning/Verilog_Data_Types/Data_Types/MS
+w1765949238
+8C:/Users/sreer/School/My_Learning/Verilog_Data_Types/Data_Types/Sequential_Design_Code/counter_nbit.v
+FC:/Users/sreer/School/My_Learning/Verilog_Data_Types/Data_Types/Sequential_Design_Code/counter_nbit.v
+!i122 21
+L0 1 17
+Z20 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z21 !s108 1765950059.000000
+!s107 C:/Users/sreer/School/My_Learning/Verilog_Data_Types/Data_Types/Sequential_Design_Code/counter_nbit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/sreer/School/My_Learning/Verilog_Data_Types/Data_Types/Sequential_Design_Code/counter_nbit.v|
+!i113 1
+R5
+R6
+vcounter_nbit_tb
+!s110 1765950060
+!i10b 1
+!s100 InYK1O]PF6O4Sll@0B90k1
+R18
+I=h?bjTmz:ak9<jSVNzaI61
+R1
+R19
+w1765950050
+8C:/Users/sreer/School/My_Learning/Verilog_Data_Types/Data_Types/Sequential_Design_Code/counter_nbit_tb.v
+FC:/Users/sreer/School/My_Learning/Verilog_Data_Types/Data_Types/Sequential_Design_Code/counter_nbit_tb.v
+!i122 22
+L0 2 34
+R20
+r1
+!s85 0
+31
+R21
+!s107 C:/Users/sreer/School/My_Learning/Verilog_Data_Types/Data_Types/Sequential_Design_Code/counter_nbit_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/sreer/School/My_Learning/Verilog_Data_Types/Data_Types/Sequential_Design_Code/counter_nbit_tb.v|
+!i113 1
+R5
+R6
 vd_ff_async_rstn
 R16
 !i10b 1
@@ -937,16 +983,16 @@ vfull_adder_behavioral
 !s110 1765773962
 !i10b 1
 !s100 H1`Ch7Tb>mAQB24WTHXWI1
-Z18 !s11b Dg1SIo80bB@j0V0VzS_@n1
+R18
 IcZ]DM]c@_]G9_gXVkI1m:0
 R1
-Z19 dC:/Users/sreer/School/My_Learning/Verilog_Data_Types/Data_Types/MS
+R19
 w1765773957
 8C:/Users/sreer/School/My_Learning/Verilog_Data_Types/Data_Types/Design_Styles_Code/full_adder_behavioral.v
 FC:/Users/sreer/School/My_Learning/Verilog_Data_Types/Data_Types/Design_Styles_Code/full_adder_behavioral.v
 !i122 16
 L0 1 21
-Z20 OV;L;2020.1;71
+R20
 r1
 !s85 0
 31
@@ -963,7 +1009,7 @@ R12
 IA^jObF>:?6koJP9Tk1IME0
 R1
 R2
-Z21 w1765819307
+Z22 w1765819307
 8C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Design_Styles_Code/full_adder_dataflow.v
 FC:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Design_Styles_Code/full_adder_dataflow.v
 L0 1
@@ -984,7 +1030,7 @@ R12
 IIi3<bl39h5PfXh:XOLo?S2
 R1
 R2
-R21
+R22
 8C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Design_Styles_Code/full_adder_structural.v
 FC:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Design_Styles_Code/full_adder_structural.v
 L0 1
@@ -1148,7 +1194,7 @@ r1
 R5
 R6
 vlfsr_16
-Z22 !s110 1765941897
+Z23 !s110 1765941897
 !i10b 1
 !s100 :F0cMaRni@B:I^WzT_NlO2
 IlJ^BIbRSK]h:^@a]zLOhe3
@@ -1162,14 +1208,14 @@ R3
 r1
 !s85 0
 31
-Z23 !s108 1765941897.000000
+Z24 !s108 1765941897.000000
 !s107 C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Sequential_Design_Code/lfsr_16.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Sequential_Design_Code/lfsr_16.v|
 !i113 1
 R5
 R6
 vlfsr_tb
-R22
+R23
 !i10b 1
 !s100 <jGR44iTc^JS4g]IJ18i=1
 IDfR_PiGURnP]:jT`m[F^n3
@@ -1183,7 +1229,7 @@ R3
 r1
 !s85 0
 31
-R23
+R24
 !s107 C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Sequential_Design_Code/lfsr_tb.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Sequential_Design_Code/lfsr_tb.v|
 !i113 1
@@ -1534,7 +1580,7 @@ R12
 IjfEL7g21<WH3NGnU9VDmi1
 R1
 R2
-R21
+R22
 8C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Design_Styles_Code/ripple_adder_structural.v
 FC:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Design_Styles_Code/ripple_adder_structural.v
 L0 1

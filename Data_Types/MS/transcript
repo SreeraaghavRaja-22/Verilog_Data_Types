@@ -1,4 +1,144 @@
-project compileall
-# Compile of lfsr_tb.v was successful.
-# Compile of lfsr_16.v was successful.
+pwd
+# C:/Users/sreer/School/My_Learning/Verilog_Data_Types/Data_Types/MS
+vsim -gui work.counter_nbit_tb
+# vsim -gui work.counter_nbit_tb 
+# Start time: 00:40:09 on Dec 17,2025
+# Loading work.counter_nbit_tb
+# Loading work.counter_nbit
+# ** Error: (vsim-3043) Unresolved reference to 'reset'.
+#    Time: 0 ns  Iteration: 0  Instance: /counter_nbit_tb File: C:/Users/sreer/School/My_Learning/Verilog_Data_Types/Data_Types/Sequential_Design_Code/counter_nbit_tb.v Line: 24
+# Error loading design
+# End time: 00:40:10 on Dec 17,2025, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 1
+do compilescript.do
+# Compile of counter_nbit.v was successful.
+# Compile of counter_nbit_tb.v was successful.
 # 2 compiles, 0 failed with no errors.
+vsim -gui work.counter_nbit_tb
+# vsim -gui work.counter_nbit_tb 
+# Start time: 00:41:04 on Dec 17,2025
+# Loading work.counter_nbit_tb
+# Loading work.counter_nbit
+run -all
+#                    0: clk = 0, reset_n = x, counter =   x
+#                    1: clk = 1, reset_n = 0, counter =   0
+#                    2: clk = 0, reset_n = 0, counter =   0
+#                    2: clk = 0, reset_n = 1, counter =   0
+#                    3: clk = 1, reset_n = 1, counter =   1
+#                    4: clk = 0, reset_n = 1, counter =   1
+#                    5: clk = 1, reset_n = 1, counter =   2
+#                    6: clk = 0, reset_n = 1, counter =   2
+#                    7: clk = 1, reset_n = 1, counter =   3
+#                    8: clk = 0, reset_n = 1, counter =   3
+#                    9: clk = 1, reset_n = 1, counter =   4
+#                   10: clk = 0, reset_n = 1, counter =   4
+#                   11: clk = 1, reset_n = 1, counter =   5
+#                   12: clk = 0, reset_n = 1, counter =   5
+#                   13: clk = 1, reset_n = 1, counter =   6
+#                   14: clk = 0, reset_n = 1, counter =   6
+#                   15: clk = 1, reset_n = 1, counter =   7
+#                   16: clk = 0, reset_n = 1, counter =   7
+#                   17: clk = 1, reset_n = 1, counter =   8
+#                   18: clk = 0, reset_n = 1, counter =   8
+#                   19: clk = 1, reset_n = 1, counter =   9
+#                   20: clk = 0, reset_n = 1, counter =   9
+#                   21: clk = 1, reset_n = 1, counter =  10
+#                   22: clk = 0, reset_n = 1, counter =  10
+#                   23: clk = 1, reset_n = 1, counter =  11
+#                   24: clk = 0, reset_n = 1, counter =  11
+#                   25: clk = 1, reset_n = 1, counter =  12
+#                   26: clk = 0, reset_n = 1, counter =  12
+#                   27: clk = 1, reset_n = 1, counter =  13
+#                   28: clk = 0, reset_n = 1, counter =  13
+#                   29: clk = 1, reset_n = 1, counter =  14
+#                   30: clk = 0, reset_n = 1, counter =  14
+#                   31: clk = 1, reset_n = 1, counter =  15
+#                   32: clk = 0, reset_n = 1, counter =  15
+#                   33: clk = 1, reset_n = 1, counter =  16
+#                   34: clk = 0, reset_n = 1, counter =  16
+#                   35: clk = 1, reset_n = 1, counter =  17
+#                   36: clk = 0, reset_n = 1, counter =  17
+#                   37: clk = 1, reset_n = 1, counter =  18
+#                   38: clk = 0, reset_n = 1, counter =  18
+#                   39: clk = 1, reset_n = 1, counter =  19
+#                   40: clk = 0, reset_n = 1, counter =  19
+#                   41: clk = 1, reset_n = 0, counter =   0
+#                   42: clk = 0, reset_n = 0, counter =   0
+#                   43: clk = 1, reset_n = 0, counter =   0
+#                   44: clk = 0, reset_n = 0, counter =   0
+#                   45: clk = 1, reset_n = 0, counter =   0
+#                   46: clk = 0, reset_n = 0, counter =   0
+#                   47: clk = 1, reset_n = 0, counter =   0
+#                   48: clk = 0, reset_n = 0, counter =   0
+#                   49: clk = 1, reset_n = 0, counter =   0
+# ** Note: $stop    : C:/Users/sreer/School/My_Learning/Verilog_Data_Types/Data_Types/Sequential_Design_Code/counter_nbit_tb.v(33)
+#    Time: 50 us  Iteration: 0  Instance: /counter_nbit_tb
+# Break in Module counter_nbit_tb at C:/Users/sreer/School/My_Learning/Verilog_Data_Types/Data_Types/Sequential_Design_Code/counter_nbit_tb.v line 33
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: sreer  Hostname: AURORA  ProcessID: 3512
+#           Attempting to use alternate WLF file "./wlftnt82en".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftnt82en
+do restart.do
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# 0
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+#                    0: clk = 0, reset_n = x, counter =   x
+#                    1: clk = 1, reset_n = 0, counter =   0
+#                    2: clk = 0, reset_n = 0, counter =   0
+#                    2: clk = 0, reset_n = 1, counter =   0
+#                    3: clk = 1, reset_n = 1, counter =   1
+#                    4: clk = 0, reset_n = 1, counter =   1
+#                    5: clk = 1, reset_n = 1, counter =   2
+#                    6: clk = 0, reset_n = 1, counter =   2
+#                    7: clk = 1, reset_n = 1, counter =   3
+#                    8: clk = 0, reset_n = 1, counter =   3
+#                    9: clk = 1, reset_n = 1, counter =   4
+#                   10: clk = 0, reset_n = 1, counter =   4
+#                   11: clk = 1, reset_n = 1, counter =   5
+#                   12: clk = 0, reset_n = 1, counter =   5
+#                   13: clk = 1, reset_n = 1, counter =   6
+#                   14: clk = 0, reset_n = 1, counter =   6
+#                   15: clk = 1, reset_n = 1, counter =   7
+#                   16: clk = 0, reset_n = 1, counter =   7
+#                   17: clk = 1, reset_n = 1, counter =   8
+#                   18: clk = 0, reset_n = 1, counter =   8
+#                   19: clk = 1, reset_n = 1, counter =   9
+#                   20: clk = 0, reset_n = 1, counter =   9
+#                   21: clk = 1, reset_n = 1, counter =  10
+#                   22: clk = 0, reset_n = 1, counter =  10
+#                   23: clk = 1, reset_n = 1, counter =  11
+#                   24: clk = 0, reset_n = 1, counter =  11
+#                   25: clk = 1, reset_n = 1, counter =  12
+#                   26: clk = 0, reset_n = 1, counter =  12
+#                   27: clk = 1, reset_n = 1, counter =  13
+#                   28: clk = 0, reset_n = 1, counter =  13
+#                   29: clk = 1, reset_n = 1, counter =  14
+#                   30: clk = 0, reset_n = 1, counter =  14
+#                   31: clk = 1, reset_n = 1, counter =  15
+#                   32: clk = 0, reset_n = 1, counter =  15
+#                   33: clk = 1, reset_n = 1, counter =  16
+#                   34: clk = 0, reset_n = 1, counter =  16
+#                   35: clk = 1, reset_n = 1, counter =  17
+#                   36: clk = 0, reset_n = 1, counter =  17
+#                   37: clk = 1, reset_n = 1, counter =  18
+#                   38: clk = 0, reset_n = 1, counter =  18
+#                   39: clk = 1, reset_n = 1, counter =  19
+#                   40: clk = 0, reset_n = 1, counter =  19
+#                   41: clk = 1, reset_n = 0, counter =   0
+#                   42: clk = 0, reset_n = 0, counter =   0
+#                   43: clk = 1, reset_n = 0, counter =   0
+#                   44: clk = 0, reset_n = 0, counter =   0
+#                   45: clk = 1, reset_n = 0, counter =   0
+#                   46: clk = 0, reset_n = 0, counter =   0
+#                   47: clk = 1, reset_n = 0, counter =   0
+#                   48: clk = 0, reset_n = 0, counter =   0
+#                   49: clk = 1, reset_n = 0, counter =   0
+# ** Note: $stop    : C:/Users/sreer/School/My_Learning/Verilog_Data_Types/Data_Types/Sequential_Design_Code/counter_nbit_tb.v(33)
+#    Time: 50 us  Iteration: 0  Instance: /counter_nbit_tb
+# Break in Module counter_nbit_tb at C:/Users/sreer/School/My_Learning/Verilog_Data_Types/Data_Types/Sequential_Design_Code/counter_nbit_tb.v line 33
+quit -sim
+# End time: 00:45:18 on Dec 17,2025, Elapsed time: 0:04:14
+# Errors: 0, Warnings: 1

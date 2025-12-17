@@ -191,3 +191,12 @@
 - The bits inside the LFSR that influence the **feedback loop** are called **taps**
 - A maximal-length n-bit LFSR produces the maximum number of binary patterns (2^n - 1) before it repeats them
 - Are used in cryptogrpahy, computer simulations, test pattern generators, electronic games
+
+### Synchronous Counters
+
+- A counter is based on a clock signal and outputs n-bit binary numbers which repeat cyclically
+- usually based on flip-flops connected with additional logic
+- Synchronous because all use the same clock signal
+- They can increment or decrement (up/down counter)
+- They can start at 0 or from any custom value
+- The output can be binary code, gray code, or a modulo-N code
