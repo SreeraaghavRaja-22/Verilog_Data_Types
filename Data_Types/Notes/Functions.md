@@ -21,5 +21,4 @@
 - The **name of the function** is the output
 - Makes code reusable annd maintainable
 
-
 ## Verilog Recursive Functions
