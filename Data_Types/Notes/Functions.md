@@ -8,7 +8,7 @@
 - Writing **inline code** -> scalability issues, prone to errors, hard to maintain and develop
 - **Recurrent** pieces of code can be grouped into **functions and tasks**
   
-### Verilog Functions Information
+## Verilog Functions Information
 
 - Used to get the result of some operations performed between variables
 - Does NOT consume simulation time
@@ -20,3 +20,6 @@
 - CANNOT call tasks
 - The **name of the function** is the output
 - Makes code reusable annd maintainable
+
+
+## Verilog Recursive Functions

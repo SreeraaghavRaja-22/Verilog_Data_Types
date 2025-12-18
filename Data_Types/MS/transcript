@@ -285,3 +285,135 @@ quit -si
 quit -sim
 # End time: 17:16:23 on Dec 17,2025, Elapsed time: 0:27:54
 # Errors: 0, Warnings: 2
+project compileoutofdate
+# Compile of func_ex1.v was successful.
+vsim -gui work.func_ex1
+# vsim -gui work.func_ex1 
+# Start time: 17:46:20 on Dec 17,2025
+# Loading work.func_ex1
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: sreer  Hostname: AURORA  ProcessID: 3512
+#           Attempting to use alternate WLF file "./wlfthq3fir".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlfthq3fir
+run -all
+#                    0: a =   x, b =   x, sum =   x
+#                    1: a =   1, b =  66, sum =  67
+#                    2: a =   2, b =  65, sum =  67
+#                    3: a =  24, b =  43, sum =  67
+#                    4: a = 244, b =  12, sum = 256
+#                    5: a = 255, b = 255, sum = 510
+do compilescript.do
+# Compile of counter_nbit.v was successful.
+# Compile of counter_nbit_tb.v was successful.
+# Compile of counter_up_down_load_nbit.v was successful.
+# Compile of counter_up_down_load_nbit_tb.v was successful.
+# Compile of counter_modulo_n.v was successful.
+# Compile of counter_modulo_n_tb.v was successful.
+# Compile of clock_div_nbit_tb.v was successful.
+# Compile of clock_div_nbit.v was successful.
+# Compile of clock_div3.v was successful.
+# Compile of clock_div3_tb.v was successful.
+# Compile of func_ex1.v was successful.
+# 11 compiles, 0 failed with no errors.
+do restart.do
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.func_ex1
+# 0
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+#                    0: a =   x, b =   x, sum =   x
+#                    1: a =   1, b =  66, sum =  67
+#                    2: a =   2, b =  65, sum =  67
+#                    3: a =  24, b =  43, sum =  67
+#                    4: a = 244, b =  12, sum = 256
+#                    5: a = 255, b =   0, sum = 255
+do compilescript.do
+# Compile of counter_nbit.v was successful.
+# Compile of counter_nbit_tb.v was successful.
+# Compile of counter_up_down_load_nbit.v was successful.
+# Compile of counter_up_down_load_nbit_tb.v was successful.
+# Compile of counter_modulo_n.v was successful.
+# Compile of counter_modulo_n_tb.v was successful.
+# Compile of clock_div_nbit_tb.v was successful.
+# Compile of clock_div_nbit.v was successful.
+# Compile of clock_div3.v was successful.
+# Compile of clock_div3_tb.v was successful.
+# Compile of func_ex1.v was successful.
+# 11 compiles, 0 failed with no errors.
+do restart.do
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.func_ex1
+# 0
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+#                    0: a =   x, b =   x, sum =   x
+#                    1: a =   1, b =  66, sum =  67
+#                    2: a =   2, b =  65, sum =  67
+#                    3: a =  24, b =  43, sum =  67
+#                    4: a = 244, b =  12, sum = 256
+#                    5: a = 255, b = 255, sum = 510
+do compilescript.do
+# Compile of counter_nbit.v was successful.
+# Compile of counter_nbit_tb.v was successful.
+# Compile of counter_up_down_load_nbit.v was successful.
+# Compile of counter_up_down_load_nbit_tb.v was successful.
+# Compile of counter_modulo_n.v was successful.
+# Compile of counter_modulo_n_tb.v was successful.
+# Compile of clock_div_nbit_tb.v was successful.
+# Compile of clock_div_nbit.v was successful.
+# Compile of clock_div3.v was successful.
+# Compile of clock_div3_tb.v was successful.
+# Compile of func_ex1.v was successful.
+# 11 compiles, 0 failed with no errors.
+do restart.do
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.func_ex1
+# 0
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+#                    0: a =   x, b =   x, sum =   x
+#                    1: a =   1, b =  66, sum =  67
+#                    2: a =   2, b =  65, sum =  67
+#                    3: a =  24, b =  43, sum =  67
+#                    4: a = 244, b =  12, sum = 256
+#                    5: a = 255, b = 255, sum = 510
+quit -sim
+# End time: 18:02:02 on Dec 17,2025, Elapsed time: 0:15:42
+# Errors: 0, Warnings: 1
+project compileall
+# Compile of counter_nbit.v was successful.
+# Compile of counter_nbit_tb.v was successful.
+# Compile of counter_up_down_load_nbit.v was successful.
+# Compile of counter_up_down_load_nbit_tb.v was successful.
+# Compile of counter_modulo_n.v was successful.
+# Compile of counter_modulo_n_tb.v was successful.
+# Compile of clock_div_nbit_tb.v was successful.
+# Compile of clock_div_nbit.v was successful.
+# Compile of clock_div3.v was successful.
+# Compile of clock_div3_tb.v was successful.
+# Compile of func_ex1.v was successful.
+# Compile of func_ex2.v was successful.
+# 12 compiles, 0 failed with no errors.
+vsim -gui work.func_ex2
+# vsim -gui work.func_ex2 
+# Start time: 18:02:40 on Dec 17,2025
+# Loading work.func_ex2
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: sreer  Hostname: AURORA  ProcessID: 3512
+#           Attempting to use alternate WLF file "./wlftw0fysh".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftw0fysh
+run -all
+#                    0: a =           x, b =           x, compare = x
+#                    1: a =           1, b =           2, compare = 0
+#                    2: a =          33, b =          44, compare = 0
+#                    3: a =          67, b =          67, compare = 1
+#                    4: a =           0, b =         256, compare = 0
+#                    5: a = -2147483648, b = -2147483648, compare = 1
+quit -sim
+# End time: 18:03:09 on Dec 17,2025, Elapsed time: 0:00:29
+# Errors: 0, Warnings: 5
