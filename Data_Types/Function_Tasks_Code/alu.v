@@ -27,7 +27,7 @@ module alu
         y = 0; carry_out = 0; borrow = 0; invalid_op = 0;
 
         case(opcode) 
-            OP_ADD          : begin {carry_out, y} = a + b; end 
+            OP_ADD          : begin {carry_out, y} = a + b; end // need a carry_out here too
             OP_ADD_CARRY    : begin {carry_out, y} = a + b + carry_in; end
             OP_SUB          : begin {borrow, y} = a - b; end
             OP_INC          : begin {carry_out, y} = a + 1'b1; end
@@ -36,7 +36,7 @@ module alu
             OP_NOT          : begin y = ~a; end
             OP_ROL          : begin y = {a[BUS_WIDTH-2:0], a[BUS_WIDTH-1]}; end
             OP_ROR          : begin y = {a[0], a[BUS_WIDTH-1:1]}; end
-            default         : begin invalid_op = 1; end
+            default         : begin invalid_op = 1; carry_out = 0; borrow = 0; end
         endcase
     end 
 
