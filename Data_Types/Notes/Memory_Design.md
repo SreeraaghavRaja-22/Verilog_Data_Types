@@ -21,3 +21,55 @@
 - Multiple N-bit words are stacked in a matrix, and each can be accessed using a memory address
 - A M-bit wide memory address bus can access 2^M distinct addresses
 - The size of a memory is N * 2^M bits
+
+### Single-Port Asynchronous Read SRAM
+
+- The SRAM will have 16 x 8bit words
+- The data write is active on the positive edge of clk if write_en = 1 (synchronous write)
+- Read is immediate after the address is changed (asynchronous)
+- I/O Pins
+  - clk: positive edge of clock
+  - data_in[7:0]: 8bit data input bus
+  - address [3:0]: 4bit address bus (for r/w)
+  - write_en: synchronous write enable (active-high)
+  - data_out[7:0]: 8bit data output bus
+  
+### Single-Port Synchronous Read SRAM
+
+- The SRAM will have 16 x 8bit words
+- Data write is active on the positive edge of clk if write_en = 1 (synchronous write)
+- Read is done 1 clock after the addrss is changed (synchronous read)
+- I/O Pins
+  - clk: positive edge of clock
+  - data_in[7:0]: 8bit data input bus
+  - address [3:0]: 4bit address bus (for r/w)
+  - write_en: synchronous write enable (active-high)
+  - data_out[7:0]: 8bit data output bus
+
+### Dual-Port Asynchronous Read SRAM
+
+- The SRAM will have 16 x 8bit words
+- Data write is active on the positive edge of clk if write_en = 1 (synchronous write)
+- Read is done asynchronously after address_rd is changed (async_read)
+- Write / Read Operation can be done in parallel
+- - I/O Pins
+  - clk: positive edge of clock
+  - data_in[7:0]: 8bit data input bus
+  - address_wr [3:0]: 4bit address bus for write
+  - address_rd [3:0]: 4bit address bus for read
+  - write_en: synchronous write enable (active-high)
+  - data_out[7:0]: 8bit data output bus
+
+### Synchronous Read Only Memory (ROM)
+
+- The ROM will have 16 x 8bit words
+- At each clock, the address information will be processed and data from that location will be shown at the output
+- The ROM will be loaded with data from **rom_init.hex** (**synthesizable in FPGA**)
+- ROM can be used to store the program memory for a **CPU**
+  - **readmemb**("initialization file with binary data", destination_memory, start_addr, stop_addr)
+  - **readmemh**("initialization file with hex data", destination memory, start_addr, stop_addr)
+- I/O Pins
+  - clk: positive edge of clock
+  - address_rd[3:0]: 4bit address bus for read
+  - data_out[7:0]: 8bit data output bus
+  

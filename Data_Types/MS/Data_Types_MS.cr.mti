@@ -1,9 +1,58 @@
-C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Function_Tasks_Code/shift_reg_pipo_buggy.v {1 {vlog -work work -stats=none C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Function_Tasks_Code/shift_reg_pipo_buggy.v
+C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/FSM_Code/seq_det_overlap_tb.v {1 {vlog -work work -stats=none C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/FSM_Code/seq_det_overlap_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module seq_det_overlap_tb
+
+Top level modules:
+	seq_det_overlap_tb
+
+} {} {}} C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Function_Tasks_Code/shift_reg_pipo_buggy.v {1 {vlog -work work -stats=none C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Function_Tasks_Code/shift_reg_pipo_buggy.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 -- Compiling module shift_reg_pipo_buggy
 
 Top level modules:
 	shift_reg_pipo_buggy
+
+} {} {}} C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/FSM_Code/seq_det_overlap.v {1 {vlog -work work -stats=none C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/FSM_Code/seq_det_overlap.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module seq_det_overlap
+
+Top level modules:
+	seq_det_overlap
+
+} {} {}} C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/FIFO_Code/fifo_sync.v {1 {vlog -work work -stats=none C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/FIFO_Code/fifo_sync.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module fifo_sync
+
+Top level modules:
+	fifo_sync
+
+} {} {}} C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/FSM_Code/semaphore_fsm_tb.v {1 {vlog -work work -stats=none C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/FSM_Code/semaphore_fsm_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module semaphore_fsm_tb
+
+Top level modules:
+	semaphore_fsm_tb
+
+} {} {}} C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Memory_Design/rom.v {1 {vlog -work work -stats=none C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Memory_Design/rom.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module rom
+
+Top level modules:
+	rom
+
+} {} {}} C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Memory_Design/ram_sp_sync_read_tb.v {1 {vlog -work work -stats=none C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Memory_Design/ram_sp_sync_read_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module ram_sp_sync_read_tb
+
+Top level modules:
+	ram_sp_sync_read_tb
+
+} {} {}} C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/FSM_Code/semaphore_fsm.v {1 {vlog -work work -stats=none C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/FSM_Code/semaphore_fsm.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module semaphore_fsm
+
+Top level modules:
+	semaphore_fsm
 
 } {} {}} C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Function_Tasks_Code/shift_reg_pipo_buggy_tb.v {1 {vlog -work work -stats=none C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Function_Tasks_Code/shift_reg_pipo_buggy_tb.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
@@ -19,12 +68,82 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 Top level modules:
 	task_control_shift_reg
 
+} {} {}} C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Memory_Design/ram_dp_async_read_tb.v {1 {vlog -work work -stats=none C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Memory_Design/ram_dp_async_read_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module ram_dp_async_read_tb
+
+Top level modules:
+	ram_dp_async_read_tb
+
+} {} {}} C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/FIFO_Code/fifo_sync_tb.v {1 {vlog -work work -stats=none C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/FIFO_Code/fifo_sync_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module fifo_sync_tb
+
+Top level modules:
+	fifo_sync_tb
+
+} {} {}} C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Memory_Design/ram_sp_sync_read.v {1 {vlog -work work -stats=none C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Memory_Design/ram_sp_sync_read.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module ram_sp_sync_read
+
+Top level modules:
+	ram_sp_sync_read
+
+} {} {}} C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/FSM_Code/seq_det_non_overlap_tb.v {1 {vlog -work work -stats=none C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/FSM_Code/seq_det_non_overlap_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module seq_det_non_overlap_tb
+
+Top level modules:
+	seq_det_non_overlap_tb
+
+} {} {}} C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/FSM_Code/fsm1_tb.v {1 {vlog -work work -stats=none C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/FSM_Code/fsm1_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module fsm1_tb
+
+Top level modules:
+	fsm1_tb
+
 } {} {}} C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Function_Tasks_Code/alu_tb.v {1 {vlog -work work -stats=none C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Function_Tasks_Code/alu_tb.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 -- Compiling module alu_tb
 
 Top level modules:
 	alu_tb
+
+} {} {}} C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Memory_Design/ram_sp_async_read.v {1 {vlog -work work -stats=none C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Memory_Design/ram_sp_async_read.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module ram_sp_async_read
+
+Top level modules:
+	ram_sp_async_read
+
+} {} {}} C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Memory_Design/rom_tb.v {1 {vlog -work work -stats=none C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Memory_Design/rom_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module rom_tb
+
+Top level modules:
+	rom_tb
+
+} {} {}} C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Memory_Design/ram_dp_async_read.v {1 {vlog -work work -stats=none C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Memory_Design/ram_dp_async_read.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module ram_dp_async_read
+
+Top level modules:
+	ram_dp_async_read
+
+} {} {}} C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/FSM_Code/seq_det_non_overlap.v {1 {vlog -work work -stats=none C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/FSM_Code/seq_det_non_overlap.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module seq_det_non_overlap
+
+Top level modules:
+	seq_det_non_overlap
+
+} {} {}} C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/FSM_Code/fsm1.v {1 {vlog -work work -stats=none C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/FSM_Code/fsm1.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module fsm1
+
+Top level modules:
+	fsm1
 
 } {} {}} C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Function_Tasks_Code/alu.v {1 {vlog -work work -stats=none C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Function_Tasks_Code/alu.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
@@ -39,5 +158,12 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 
 Top level modules:
 	tasks_meters_to_feet
+
+} {} {}} C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Memory_Design/ram_sp_async_read_tb.v {1 {vlog -work work -stats=none C:/School/Verilog_Course/Verilog_Data_Types/Data_Types/Memory_Design/ram_sp_async_read_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module ram_sp_async_read_tb
+
+Top level modules:
+	ram_sp_async_read_tb
 
 } {} {}}
